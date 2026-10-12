@@ -47,3 +47,4 @@ out/
 
 # Keep source assets tracked, but ignore generated PDFs if desired
 # main.pdf
+.latexmkrc

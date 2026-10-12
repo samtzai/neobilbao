@@ -1,20 +1,28 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{neobilbao}[2026/10/12 Estilo NeoBilbao (solo paquetes base+recommended)]
+\ProvidesPackage{neobilbao}[2026/10/12 Estilo NeoBilbao (XeLaTeX)]
+
+\RequirePackage{iftex}
+\RequireXeTeX
 
 % --- Base ---------------------------------------------------------------
-\RequirePackage[T1]{fontenc}
-\RequirePackage[utf8]{inputenc}
-\RequirePackage{lmodern}
+\RequirePackage{fontspec}
 \RequirePackage{microtype}
 \RequirePackage[a5paper,top=20mm,bottom=20mm,left=17mm,right=17mm,headheight=14pt]{geometry}
 \RequirePackage{graphicx}
 \RequirePackage[table]{xcolor}
 \RequirePackage{array}
 \RequirePackage{tabularx}
-\RequirePackage{longtable}
 \RequirePackage{booktabs}
+\RequirePackage{enumitem}
+\RequirePackage{titlesec}
 \RequirePackage{fancyhdr}
-\RequirePackage{eso-pic}
+\RequirePackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+
+% --- Fuentes (TeX Gyre, incluidas en TeX Live) ---------------------------
+\setmainfont{TeX Gyre Pagella}
+\setsansfont{TeX Gyre Heros}
+\newfontfamily\industrialfont{TeX Gyre Adventor}
 
 % --- Paleta -------------------------------------------------------------
 \definecolor{BurdinUrdin}{HTML}{0088B4}
@@ -49,38 +57,25 @@
 \raggedright
 \setcounter{tocdepth}{1}
 
-\makeatletter
-\def\@listI{\leftmargin\leftmargini \parsep 2\p@ \@plus1\p@ \topsep 4\p@ \@plus2\p@ \itemsep 2\p@ \@plus1\p@}
-\let\@listi\@listI
+\setlist{leftmargin=1.4em,itemsep=2pt,topsep=3pt,parsep=0pt}
 
 % --- Titulares ----------------------------------------------------------
-\renewcommand{\@makechapterhead}[1]{%
-  \vspace*{1ex}%
-  {\parindent\z@ \raggedright \normalfont
-   {\sffamily\bfseries\small\color{BurdinUrdin}\MakeUppercase{\chaptername}~\thechapter\par}%
-   \vskip 4\p@
-   {\sffamily\bfseries\LARGE\color{CarbonDark}#1\par}%
-   \vskip 4\p@
-   {\color{OrekakRust}\rule{\linewidth}{1.2pt}}%
-   \vskip 14\p@}}
-\renewcommand{\@makeschapterhead}[1]{%
-  \vspace*{1ex}%
-  {\parindent\z@ \raggedright \normalfont
-   {\sffamily\bfseries\LARGE\color{CarbonDark}#1\par}%
-   \vskip 4\p@
-   {\color{OrekakRust}\rule{\linewidth}{1.2pt}}%
-   \vskip 14\p@}}
+\titleformat{\chapter}[display]
+  {\raggedright\normalfont}
+  {\industrialfont\bfseries\small\color{BurdinUrdin}\MakeUppercase{\chaptername}~\thechapter}
+  {4pt}
+  {\industrialfont\bfseries\LARGE\color{CarbonDark}}
+  [\vspace{4pt}{\color{OrekakRust}\titlerule[1.2pt]}]
+\titlespacing*{\chapter}{0pt}{0pt}{16pt}
 
-\renewcommand\section{\@startsection{section}{1}{\z@}%
-  {2.2ex \@plus .5ex \@minus .2ex}{1ex \@plus .2ex}%
-  {\sffamily\bfseries\large\color{OrekakRust}\raggedright}}
-\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
-  {1.8ex \@plus .4ex \@minus .2ex}{.6ex \@plus .1ex}%
-  {\sffamily\bfseries\normalsize\color{BurdinUrdin}\raggedright}}
-\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
-  {1.4ex \@plus .3ex \@minus .2ex}{.4ex}%
-  {\sffamily\bfseries\small\color{GoldDark}\raggedright}}
+\titleformat{\section}{\industrialfont\bfseries\large\color{OrekakRust}\raggedright}{\thesection}{0.6em}{}
+\titlespacing*{\section}{0pt}{2.2ex plus .5ex minus .2ex}{1ex plus .2ex}
+\titleformat{\subsection}{\industrialfont\bfseries\normalsize\color{BurdinUrdin}\raggedright}{\thesubsection}{0.6em}{}
+\titlespacing*{\subsection}{0pt}{1.8ex plus .4ex minus .2ex}{.6ex plus .1ex}
+\titleformat{\subsubsection}{\industrialfont\bfseries\small\color{GoldDark}\raggedright}{\thesubsubsection}{0.6em}{}
+\titlespacing*{\subsubsection}{0pt}{1.4ex plus .3ex minus .2ex}{.4ex}
 
+\makeatletter
 \def\@part[#1]#2{%
   \ifnum \c@secnumdepth >-2\relax
     \refstepcounter{part}%
@@ -90,9 +85,9 @@
   \fi
   {\parindent\z@ \centering \interlinepenalty\@M \normalfont
    \vspace*{\fill}%
-   {\sffamily\bfseries\large\color{OrekakRust}\MakeUppercase{\partname}~\thepart\par}%
+   {\industrialfont\bfseries\large\color{OrekakRust}\MakeUppercase{\partname}~\thepart\par}%
    \vskip 12\p@
-   {\sffamily\bfseries\Huge\color{CarbonDark}#2\par}%
+   {\industrialfont\bfseries\Huge\color{CarbonDark}#2\par}%
    \vspace*{\fill}\par}%
   \@endpart}
 \makeatother
@@ -101,63 +96,56 @@
 \pagestyle{fancy}
 \fancyhf{}
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
-\fancyhead[L]{\sffamily\scriptsize\color{BurdinUrdin}\MakeUppercase{\leftmark}}
-\fancyhead[R]{\sffamily\scriptsize\color{CarbonDark}\thepage}
+\fancyhead[L]{\industrialfont\scriptsize\color{BurdinUrdin}\MakeUppercase{\leftmark}}
+\fancyhead[R]{\industrialfont\scriptsize\color{CarbonDark}\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\headrule}{\color{BurdinUrdin}\hrule width\headwidth height\headrulewidth}
 \fancypagestyle{plain}{%
   \fancyhf{}%
-  \fancyfoot[C]{\sffamily\scriptsize\thepage}%
+  \fancyfoot[C]{\industrialfont\scriptsize\thepage}%
   \renewcommand{\headrulewidth}{0pt}}
 
 % --- Macros de texto ----------------------------------------------------
 \newcommand{\tg}[1]{\textcolor{AcidSirimiri}{\textsf{\bfseries[#1]}}}
 \newcommand{\lead}[1]{\textsf{\bfseries\textcolor{BurdinUrdin}{#1}}}
 \newcommand{\dire}[1]{\textsf{\bfseries\textcolor{OrekakRust}{#1}}}
-
-% --- Cajas (sin tcolorbox): un lrbox con marco y barra de título --------
-% Las cajas no se parten entre páginas; mantener su contenido corto.
-\makeatletter
-\newsavebox{\neo@box}
-\newlength{\neo@rule}
-\newcommand{\neo@boxbegin}[6]{% grosor, marco, fondo, texto, color barra, titulo
-  \par\addvspace{\medskipamount}\noindent
-  \setlength{\neo@rule}{#1}\def\neo@frame{#2}\def\neo@bg{#3}%
-  \setlength{\fboxsep}{6pt}%
-  \begin{lrbox}{\neo@box}%
-  \begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\neo@rule\relax}%
-    \color{#4}\raggedright
-    \setlength{\parindent}{0pt}\setlength{\parskip}{0.4em plus 0.1em}%
-    \colorbox{#5}{\parbox{\dimexpr\linewidth-2\fboxsep\relax}{%
-      \sffamily\bfseries\small\color{white}\MakeUppercase{#6}}}\par\vspace{0.2em}%
-}
-\newcommand{\neo@boxend}{%
-  \end{minipage}\end{lrbox}%
-  \setlength{\fboxrule}{\neo@rule}%
-  \fcolorbox{\neo@frame}{\neo@bg}{\usebox{\neo@box}}%
-  \par\addvspace{\medskipamount}}
-
-\newenvironment{CajaSecreto}
-  {\neo@boxbegin{2pt}{OrekakRust}{BoxRust}{CarbonDark}{OrekakRust}{Solo para ojos del Director}}
-  {\neo@boxend}
-\newenvironment{CajaCinematica}[1]
-  {\neo@boxbegin{1pt}{BurdinUrdin}{CarbonDark}{SteelLight}{BurdinUrdin}{#1}}
-  {\neo@boxend}
-\newenvironment{FichaEnemigo}[1]
-  {\neo@boxbegin{1pt}{CarbonDark}{BoxGray}{CarbonDark}{CarbonDark}{#1}}
-  {\neo@boxend}
-\newenvironment{FichaArquetipo}[1]
-  {\neo@boxbegin{1pt}{GoldDark}{BoxGold}{CarbonDark}{GoldDark}{#1}}
-  {\neo@boxend}
-\newenvironment{CajaEjemplo}[1]
-  {\neo@boxbegin{1pt}{AcidSirimiri}{BoxGreen}{CarbonDark}{AcidSirimiri}{#1}}
-  {\neo@boxend}
-\newenvironment{CajaRegla}[1]
-  {\neo@boxbegin{1pt}{BurdinUrdin}{BoxBlue}{CarbonDark}{BurdinUrdin}{#1}}
-  {\neo@boxend}
-\makeatother
-
-% Etiquetas dentro de las cajas oscuras del guion.
 \newcommand{\cine}[1]{\textsf{\bfseries\textcolor{CupulaGold}{\MakeUppercase{#1}}}}
+
+% --- Cajas tcolorbox ----------------------------------------------------
+\tcbset{
+  neo/.style={
+    enhanced, breakable,
+    arc=1.5mm, boxrule=1pt,
+    left=6pt, right=6pt, top=4pt, bottom=4pt,
+    before skip=8pt, after skip=8pt,
+    coltitle=white, fonttitle=\industrialfont\bfseries\small,
+    before upper={\setlength{\parindent}{0pt}\setlength{\parskip}{0.4em plus 0.1em}\raggedright},
+    colupper=CarbonDark,
+  }
+}
+
+\newtcolorbox{CajaSecreto}{neo,
+  colframe=OrekakRust, colback=BoxRust, colbacktitle=OrekakRust,
+  boxrule=2pt, title={\MakeUppercase{Solo para ojos del Director}}}
+
+\newtcolorbox{CajaCinematica}[1]{neo,
+  colframe=BurdinUrdin, colback=CarbonDark, colbacktitle=BurdinUrdin,
+  colupper=SteelLight, title={\MakeUppercase{#1}}}
+
+\newtcolorbox{FichaEnemigo}[1]{neo,
+  colframe=CarbonDark, colback=BoxGray, colbacktitle=CarbonDark,
+  title={\MakeUppercase{#1}}}
+
+\newtcolorbox{FichaArquetipo}[1]{neo,
+  colframe=GoldDark, colback=BoxGold, colbacktitle=GoldDark,
+  title={\MakeUppercase{#1}}}
+
+\newtcolorbox{CajaEjemplo}[1]{neo,
+  colframe=AcidSirimiri, colback=BoxGreen, colbacktitle=AcidSirimiri,
+  title={\MakeUppercase{#1}}}
+
+\newtcolorbox{CajaRegla}[1]{neo,
+  colframe=BurdinUrdin, colback=BoxBlue, colbacktitle=BurdinUrdin,
+  title={\MakeUppercase{#1}}}
 
 \endinput
