@@ -116,6 +116,13 @@
 \newcommand{\dire}[1]{\textsf{\bfseries\textcolor{OrekakRust}{#1}}}
 \newcommand{\cine}[1]{\textsf{\bfseries\textcolor{CupulaGold}{\MakeUppercase{#1}}}}
 \newcommand{\codigo}[1]{\textcolor{BurdinUrdin}{\terminalfont\small #1}}
+\newcommand{\neofigure}[2]{%
+  \begin{figure}[tbp]
+  \centering
+  \includegraphics[width=\linewidth]{#1}\par
+  \vspace{1mm}{\color{BurdinUrdin}\rule{0.18\linewidth}{0.8pt}}\par
+  \caption{#2}
+  \end{figure}}
 
 % --- Cajas tcolorbox ----------------------------------------------------
 \tcbset{
