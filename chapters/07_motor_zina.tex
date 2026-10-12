@@ -24,7 +24,7 @@ Cuando un personaje realiza una acción arriesgada descrita en la ficción, tira
 
 \begin{itemize}
   \item \lead{10 o más (éxito total):} consigues exactamente lo que querías sin complicaciones, aplicando las ventajas de las etiquetas de tu equipo o entorno.
-  \item \lead{7 a 9 (éxito con coste):} logras tu objetivo, pero el Director (MC) introduce una complicación. El Director puede gastar o activar las etiquetas del escenario o del equipo (por ejemplo, haciendo que un arma con etiqueta \tg{Consumible} se agote, o que el entorno con etiqueta \tg{Ácido} muerda el equipo del personaje).
+  \item \lead{7 a 9 (éxito con coste):} logras tu objetivo, pero el Director (MC) introduce una complicación. El Director puede gastar o activar las etiquetas del escenario o del equipo (por ejemplo, haciendo que un arma con etiqueta \etiqueta{Consumible} se agote, o que el entorno con etiqueta \etiqueta{Ácido} muerda el equipo del personaje).
   \item \lead{6 o menos (fallo):} las cosas salen rematadamente mal. Pierdes la iniciativa y el Director ejecuta un movimiento duro.
 \end{itemize}
 
@@ -73,36 +73,36 @@ En el motor «Zina», las etiquetas son palabras clave breves que definen las pr
 Las herramientas improvisadas y el armamento de los obreros o de la seguridad corporativa se rigen por estas propiedades:
 
 \tagtable{%
-\tg{Contundente} & Ideal para romper blindajes o deformar chapa, pero ruidoso. \\
-\tg{Desgarrador} & Causa heridas graves y desangramiento; aumenta el riesgo de elevar la Zama. \\
-\tg{A distancia corta} & Solo es efectivo en espacios reducidos o cuerpo a cuerpo. \\
-\tg{Pesado} & Requiere esfuerzo físico o penaliza las tiradas de sigilo (Pacífico o Asustado). \\
-\tg{Consumible} & El objeto tiene un uso limitado y se agota tras la tirada (como un soplete o un inyector). \\
-\tg{Clandestino} & Fácil de ocultar de los escáneres de los drones Tártalos. \\
-\tg{Preciso / A distancia} & Permite golpear objetivos lejanos o vulnerables (como los sensores ópticos de los drones), pero es inútil en forcejeos cuerpo a cuerpo. \\
-\tg{Improvisado} & Creado con chatarra de la fundición; se rompe o degrada automáticamente tras sacar un éxito con coste (7--9) o un fallo. \\}
+\etiqueta{Contundente} & Ideal para romper blindajes o deformar chapa, pero ruidoso. \\
+\etiqueta{Desgarrador} & Causa heridas graves y desangramiento; aumenta el riesgo de elevar la Zama. \\
+\etiqueta{A distancia corta} & Solo es efectivo en espacios reducidos o cuerpo a cuerpo. \\
+\etiqueta{Pesado} & Requiere esfuerzo físico o penaliza las tiradas de sigilo (Pacífico o Asustado). \\
+\etiqueta{Consumible} & El objeto tiene un uso limitado y se agota tras la tirada (como un soplete o un inyector). \\
+\etiqueta{Clandestino} & Fácil de ocultar de los escáneres de los drones Tártalos. \\
+\etiqueta{Preciso / A distancia} & Permite golpear objetivos lejanos o vulnerables (como los sensores ópticos de los drones), pero es inútil en forcejeos cuerpo a cuerpo. \\
+\etiqueta{Improvisado} & Creado con chatarra de la fundición; se rompe o degrada automáticamente tras sacar un éxito con coste (7--9) o un fallo. \\}
 
 \subsection{B. Etiquetas de entorno (la Ría de Acero y la Cúpula)}
 
 El Director (MC) puede invocar estas etiquetas del escenario para justificar complicaciones en los éxitos con coste o los movimientos duros:
 
 \tagtable{%
-\tg{Ácido} & El entorno corroe la materia orgánica y el metal; daña el equipo o la salud si te detienes. \\
-\tg{Oscuro / Niebla} & Ofrece cobertura natural para el sigilo, pero limita la visión y facilita las emboscadas. \\
-\tg{Vibración constante} & El ruido de la maquinaria oculta pasos y sonidos, pero dificulta las comunicaciones por radio. \\
-\tg{Alta temperatura} & El calor extremo fatiga a los personajes y acelera la ganancia de Zama. \\
-\tg{Vigilado} & Las cámaras o los sensores de ADUR-OS están activos en el sector. \\
-\tg{Inestable / Frágil} & Pasarelas oxidadas o estructuras a punto de ceder; un paso en falso activa una caída o un derrumbe. \\
-\tg{Electrificado} & Cables pelados o fugas de plasma energético; cruzar sin protección expone a daños eléctricos severos. \\}
+\etiqueta{Ácido} & El entorno corroe la materia orgánica y el metal; daña el equipo o la salud si te detienes. \\
+\etiqueta{Oscuro / Niebla} & Ofrece cobertura natural para el sigilo, pero limita la visión y facilita las emboscadas. \\
+\etiqueta{Vibración constante} & El ruido de la maquinaria oculta pasos y sonidos, pero dificulta las comunicaciones por radio. \\
+\etiqueta{Alta temperatura} & El calor extremo fatiga a los personajes y acelera la ganancia de Zama. \\
+\etiqueta{Vigilado} & Las cámaras o los sensores de ADUR-OS están activos en el sector. \\
+\etiqueta{Inestable / Frágil} & Pasarelas oxidadas o estructuras a punto de ceder; un paso en falso activa una caída o un derrumbe. \\
+\etiqueta{Electrificado} & Cables pelados o fugas de plasma energético; cruzar sin protección expone a daños eléctricos severos. \\}
 
 \subsection{C. Etiquetas de condición (estados temporales)}
 
 Como consecuencia de movimientos duros o ataques especiales de los enemigos, los personajes pueden recibir etiquetas de estado que limitan sus acciones hasta que sean curadas o superadas:
 
 \tagtable{%
-\tg{Atemorizado} & Impide usar estadísticas de confianza o calma; penaliza las tiradas de resolución. \\
-\tg{Intoxicado} & Los pulmones sufren por el gas o el sirimiri ácido; penaliza las acciones físicas. \\
-\tg{Desarmado} & Has perdido tu herramienta o arma principal en el fragor de la huida. \\
-\tg{Aislado} & Separado del grupo por una compuerta o un derrumbe; no puedes recibir apoyo de Auzolan. \\
-\tg{Aturdido} & La mente zumba por una descarga o un eco de Sugaar; pierdes la iniciativa en el próximo intercambio de acciones. \\
-\tg{Herido / Cojeando} & Tu movilidad está castigada; no puedes huir con éxito sin ayuda o sin sacrificar equipo. \\}
+\etiqueta{Atemorizado} & Impide usar estadísticas de confianza o calma; penaliza las tiradas de resolución. \\
+\etiqueta{Intoxicado} & Los pulmones sufren por el gas o el sirimiri ácido; penaliza las acciones físicas. \\
+\etiqueta{Desarmado} & Has perdido tu herramienta o arma principal en el fragor de la huida. \\
+\etiqueta{Aislado} & Separado del grupo por una compuerta o un derrumbe; no puedes recibir apoyo de Auzolan. \\
+\etiqueta{Aturdido} & La mente zumba por una descarga o un eco de Sugaar; pierdes la iniciativa en el próximo intercambio de acciones. \\
+\etiqueta{Herido / Cojeando} & Tu movilidad está castigada; no puedes huir con éxito sin ayuda o sin sacrificar equipo. \\}

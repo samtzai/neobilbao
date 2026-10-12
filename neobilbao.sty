@@ -6,8 +6,9 @@
 
 % --- Base ---------------------------------------------------------------
 \RequirePackage{fontspec}
+\RequirePackage[spanish]{babel}
 \RequirePackage{microtype}
-\RequirePackage[a5paper,top=20mm,bottom=20mm,left=17mm,right=17mm,headheight=14pt]{geometry}
+\RequirePackage[a5paper,top=20mm,bottom=20mm,left=17mm,right=17mm,headheight=18pt]{geometry}
 \RequirePackage{graphicx}
 \RequirePackage[table]{xcolor}
 \RequirePackage{array}
@@ -20,9 +21,10 @@
 \tcbuselibrary{skins,breakable}
 
 % --- Fuentes (TeX Gyre, incluidas en TeX Live) ---------------------------
-\setmainfont{TeX Gyre Pagella}
-\setsansfont{TeX Gyre Heros}
-\newfontfamily\industrialfont{TeX Gyre Adventor}
+\setmainfont{TeX Gyre Pagella}[Numbers=OldStyle]
+\setsansfont{TeX Gyre Heros}[Scale=MatchLowercase]
+\newfontfamily\industrialfont{TeX Gyre Adventor}[Scale=MatchUppercase]
+\newfontfamily\terminalfont{TeX Gyre Cursor}[Scale=MatchLowercase]
 
 % --- Paleta -------------------------------------------------------------
 \definecolor{BurdinUrdin}{HTML}{0088B4}
@@ -40,21 +42,17 @@
 
 \RequirePackage[hidelinks,unicode,pdfauthor={NeoBilbao Game Studio},pdftitle={NeoBilbao: Etxearen Zina}]{hyperref}
 
-% --- Idioma (sin babel-spanish instalado) -------------------------------
+% --- Idioma --------------------------------------------------------------
 \renewcommand{\contentsname}{Índice}
 \renewcommand{\chaptername}{Capítulo}
 \renewcommand{\partname}{Parte}
 \renewcommand{\figurename}{Figura}
 
-% Sin patrones de guionado español: se evita el guionado y se compone a bandera.
-\hyphenpenalty=10000
-\exhyphenpenalty=10000
-\emergencystretch=3em
+\emergencystretch=2em
 
 \color{CarbonDark}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.5em plus 0.2em minus 0.1em}
-\raggedright
 \setcounter{tocdepth}{1}
 
 \setlist{leftmargin=1.4em,itemsep=2pt,topsep=3pt,parsep=0pt}
@@ -62,7 +60,7 @@
 % --- Titulares ----------------------------------------------------------
 \titleformat{\chapter}[display]
   {\raggedright\normalfont}
-  {\industrialfont\bfseries\small\color{BurdinUrdin}\MakeUppercase{\chaptername}~\thechapter}
+  {\industrialfont\bfseries\small\color{BurdinUrdin}NB // \MakeUppercase{\chaptername}~\thechapter}
   {4pt}
   {\industrialfont\bfseries\LARGE\color{CarbonDark}}
   [\vspace{4pt}{\color{OrekakRust}\titlerule[1.2pt]}]
@@ -96,29 +94,38 @@
 \pagestyle{fancy}
 \fancyhf{}
 \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
-\fancyhead[L]{\industrialfont\scriptsize\color{BurdinUrdin}\MakeUppercase{\leftmark}}
-\fancyhead[R]{\industrialfont\scriptsize\color{CarbonDark}\thepage}
-\renewcommand{\headrulewidth}{0.4pt}
-\renewcommand{\headrule}{\color{BurdinUrdin}\hrule width\headwidth height\headrulewidth}
+\fancyhead[L]{\industrialfont\bfseries\scriptsize\color{BurdinUrdin}NEOBILBAO // ETXAREN ZINA}
+\fancyhead[R]{\terminalfont\scriptsize\color{OrekakRust}ARCHIVO 2102}
+\fancyfoot[L]{\industrialfont\scriptsize\color{CarbonDark}SISTEMA ZINA \textcolor{OrekakRust}{//} CAMPAÑA}
+\fancyfoot[R]{\industrialfont\bfseries\small\color{BurdinUrdin}\thepage}
+\renewcommand{\headrulewidth}{0.8pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{BurdinUrdin}\leaders\hrule height\headrulewidth\hfill\color{OrekakRust}\rule{16pt}{\headrulewidth}}}
+\renewcommand{\footrulewidth}{0.35pt}
+\renewcommand{\footrule}{\color{CarbonDark!35}\hrule width\headwidth height\footrulewidth}
 \fancypagestyle{plain}{%
   \fancyhf{}%
-  \fancyfoot[C]{\industrialfont\scriptsize\thepage}%
-  \renewcommand{\headrulewidth}{0pt}}
+  \fancyfoot[L]{\industrialfont\scriptsize\color{CarbonDark}NEOBILBAO // 2102}%
+  \fancyfoot[R]{\industrialfont\bfseries\small\color{BurdinUrdin}\thepage}%
+  \renewcommand{\headrulewidth}{0pt}%
+  \renewcommand{\footrulewidth}{0.35pt}%
+  \renewcommand{\footrule}{\color{CarbonDark!35}\hrule width\headwidth height\footrulewidth}}
 
 % --- Macros de texto ----------------------------------------------------
-\newcommand{\tg}[1]{\textcolor{AcidSirimiri}{\textsf{\bfseries[#1]}}}
+\newcommand{\etiqueta}[1]{\textcolor{AcidSirimiri}{\textsf{\bfseries[#1]}}}
 \newcommand{\lead}[1]{\textsf{\bfseries\textcolor{BurdinUrdin}{#1}}}
 \newcommand{\dire}[1]{\textsf{\bfseries\textcolor{OrekakRust}{#1}}}
 \newcommand{\cine}[1]{\textsf{\bfseries\textcolor{CupulaGold}{\MakeUppercase{#1}}}}
+\newcommand{\codigo}[1]{\textcolor{BurdinUrdin}{\terminalfont\small #1}}
 
 % --- Cajas tcolorbox ----------------------------------------------------
 \tcbset{
   neo/.style={
     enhanced, breakable,
-    arc=1.5mm, boxrule=1pt,
-    left=6pt, right=6pt, top=4pt, bottom=4pt,
+    arc=0.8mm, boxrule=0.7pt,
+    left=7pt, right=7pt, top=5pt, bottom=5pt,
     before skip=8pt, after skip=8pt,
     coltitle=white, fonttitle=\industrialfont\bfseries\small,
+    before title={\textcolor{CupulaGold}{//}\hspace{0.4em}},
     before upper={\setlength{\parindent}{0pt}\setlength{\parskip}{0.4em plus 0.1em}\raggedright},
     colupper=CarbonDark,
   }
