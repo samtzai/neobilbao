@@ -1,92 +1,163 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{neobilbao}[2026/10/12 NeoBilbao style package]
+\ProvidesPackage{neobilbao}[2026/10/12 Estilo NeoBilbao (solo paquetes base+recommended)]
 
-\RequirePackage[a5paper,margin=18mm]{geometry}
+% --- Base ---------------------------------------------------------------
+\RequirePackage[T1]{fontenc}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage{lmodern}
+\RequirePackage{microtype}
+\RequirePackage[a5paper,top=20mm,bottom=20mm,left=17mm,right=17mm,headheight=14pt]{geometry}
 \RequirePackage{graphicx}
-\RequirePackage{xcolor}
-\RequirePackage{hyperref}
+\RequirePackage[table]{xcolor}
+\RequirePackage{array}
+\RequirePackage{tabularx}
+\RequirePackage{longtable}
+\RequirePackage{booktabs}
+\RequirePackage{fancyhdr}
+\RequirePackage{eso-pic}
 
-\definecolor{BurdinBlue}{HTML}{0088B4}
+% --- Paleta -------------------------------------------------------------
+\definecolor{BurdinUrdin}{HTML}{0088B4}
 \definecolor{OrekakRust}{HTML}{B84A1E}
 \definecolor{CupulaGold}{HTML}{C49E35}
 \definecolor{CarbonDark}{HTML}{20252B}
-\definecolor{AcidGreen}{HTML}{4A7C2A}
-\definecolor{SteelGray}{HTML}{C7CDD4}
-\definecolor{WarningRed}{HTML}{C63E34}
-\definecolor{Paper}{HTML}{F2E9DC}
+\definecolor{AcidSirimiri}{HTML}{4A7C2A}
+\colorlet{GoldDark}{CupulaGold!70!black}
+\colorlet{SteelLight}{CarbonDark!12!white}
+\definecolor{BoxRust}{HTML}{F8E9E2}
+\definecolor{BoxGold}{HTML}{F8F1DC}
+\definecolor{BoxGreen}{HTML}{E8F0E2}
+\definecolor{BoxBlue}{HTML}{E2F1F6}
+\definecolor{BoxGray}{HTML}{ECEFF1}
 
-\newcommand{\industrialfont}{\sffamily}
-\newcommand{\capsfont}{\sffamily}
+\RequirePackage[hidelinks,unicode,pdfauthor={NeoBilbao Game Studio},pdftitle={NeoBilbao: Etxearen Zina}]{hyperref}
 
-\hypersetup{
-  colorlinks=true,
-  linkcolor=BurdinBlue,
-  urlcolor=BurdinBlue,
-  citecolor=BurdinBlue
+% --- Idioma (sin babel-spanish instalado) -------------------------------
+\renewcommand{\contentsname}{Índice}
+\renewcommand{\chaptername}{Capítulo}
+\renewcommand{\partname}{Parte}
+\renewcommand{\figurename}{Figura}
+
+% Sin patrones de guionado español: se evita el guionado y se compone a bandera.
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\emergencystretch=3em
+
+\color{CarbonDark}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em plus 0.2em minus 0.1em}
+\raggedright
+\setcounter{tocdepth}{1}
+
+\makeatletter
+\def\@listI{\leftmargin\leftmargini \parsep 2\p@ \@plus1\p@ \topsep 4\p@ \@plus2\p@ \itemsep 2\p@ \@plus1\p@}
+\let\@listi\@listI
+
+% --- Titulares ----------------------------------------------------------
+\renewcommand{\@makechapterhead}[1]{%
+  \vspace*{1ex}%
+  {\parindent\z@ \raggedright \normalfont
+   {\sffamily\bfseries\small\color{BurdinUrdin}\MakeUppercase{\chaptername}~\thechapter\par}%
+   \vskip 4\p@
+   {\sffamily\bfseries\LARGE\color{CarbonDark}#1\par}%
+   \vskip 4\p@
+   {\color{OrekakRust}\rule{\linewidth}{1.2pt}}%
+   \vskip 14\p@}}
+\renewcommand{\@makeschapterhead}[1]{%
+  \vspace*{1ex}%
+  {\parindent\z@ \raggedright \normalfont
+   {\sffamily\bfseries\LARGE\color{CarbonDark}#1\par}%
+   \vskip 4\p@
+   {\color{OrekakRust}\rule{\linewidth}{1.2pt}}%
+   \vskip 14\p@}}
+
+\renewcommand\section{\@startsection{section}{1}{\z@}%
+  {2.2ex \@plus .5ex \@minus .2ex}{1ex \@plus .2ex}%
+  {\sffamily\bfseries\large\color{OrekakRust}\raggedright}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+  {1.8ex \@plus .4ex \@minus .2ex}{.6ex \@plus .1ex}%
+  {\sffamily\bfseries\normalsize\color{BurdinUrdin}\raggedright}}
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+  {1.4ex \@plus .3ex \@minus .2ex}{.4ex}%
+  {\sffamily\bfseries\small\color{GoldDark}\raggedright}}
+
+\def\@part[#1]#2{%
+  \ifnum \c@secnumdepth >-2\relax
+    \refstepcounter{part}%
+    \addcontentsline{toc}{part}{\thepart\hspace{1em}#1}%
+  \else
+    \addcontentsline{toc}{part}{#1}%
+  \fi
+  {\parindent\z@ \centering \interlinepenalty\@M \normalfont
+   \vspace*{\fill}%
+   {\sffamily\bfseries\large\color{OrekakRust}\MakeUppercase{\partname}~\thepart\par}%
+   \vskip 12\p@
+   {\sffamily\bfseries\Huge\color{CarbonDark}#2\par}%
+   \vspace*{\fill}\par}%
+  \@endpart}
+\makeatother
+
+% --- Cabeceras ----------------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\fancyhead[L]{\sffamily\scriptsize\color{BurdinUrdin}\MakeUppercase{\leftmark}}
+\fancyhead[R]{\sffamily\scriptsize\color{CarbonDark}\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrule}{\color{BurdinUrdin}\hrule width\headwidth height\headrulewidth}
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyfoot[C]{\sffamily\scriptsize\thepage}%
+  \renewcommand{\headrulewidth}{0pt}}
+
+% --- Macros de texto ----------------------------------------------------
+\newcommand{\tg}[1]{\textcolor{AcidSirimiri}{\textsf{\bfseries[#1]}}}
+\newcommand{\lead}[1]{\textsf{\bfseries\textcolor{BurdinUrdin}{#1}}}
+\newcommand{\dire}[1]{\textsf{\bfseries\textcolor{OrekakRust}{#1}}}
+
+% --- Cajas (sin tcolorbox): un lrbox con marco y barra de título --------
+% Las cajas no se parten entre páginas; mantener su contenido corto.
+\makeatletter
+\newsavebox{\neo@box}
+\newlength{\neo@rule}
+\newcommand{\neo@boxbegin}[6]{% grosor, marco, fondo, texto, color barra, titulo
+  \par\addvspace{\medskipamount}\noindent
+  \setlength{\neo@rule}{#1}\def\neo@frame{#2}\def\neo@bg{#3}%
+  \setlength{\fboxsep}{6pt}%
+  \begin{lrbox}{\neo@box}%
+  \begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\neo@rule\relax}%
+    \color{#4}\raggedright
+    \setlength{\parindent}{0pt}\setlength{\parskip}{0.4em plus 0.1em}%
+    \colorbox{#5}{\parbox{\dimexpr\linewidth-2\fboxsep\relax}{%
+      \sffamily\bfseries\small\color{white}\MakeUppercase{#6}}}\par\vspace{0.2em}%
 }
+\newcommand{\neo@boxend}{%
+  \end{minipage}\end{lrbox}%
+  \setlength{\fboxrule}{\neo@rule}%
+  \fcolorbox{\neo@frame}{\neo@bg}{\usebox{\neo@box}}%
+  \par\addvspace{\medskipamount}}
 
-\pagecolor{CarbonDark}
-\color{SteelGray}
+\newenvironment{CajaSecreto}
+  {\neo@boxbegin{2pt}{OrekakRust}{BoxRust}{CarbonDark}{OrekakRust}{Solo para ojos del Director}}
+  {\neo@boxend}
+\newenvironment{CajaCinematica}[1]
+  {\neo@boxbegin{1pt}{BurdinUrdin}{CarbonDark}{SteelLight}{BurdinUrdin}{#1}}
+  {\neo@boxend}
+\newenvironment{FichaEnemigo}[1]
+  {\neo@boxbegin{1pt}{CarbonDark}{BoxGray}{CarbonDark}{CarbonDark}{#1}}
+  {\neo@boxend}
+\newenvironment{FichaArquetipo}[1]
+  {\neo@boxbegin{1pt}{GoldDark}{BoxGold}{CarbonDark}{GoldDark}{#1}}
+  {\neo@boxend}
+\newenvironment{CajaEjemplo}[1]
+  {\neo@boxbegin{1pt}{AcidSirimiri}{BoxGreen}{CarbonDark}{AcidSirimiri}{#1}}
+  {\neo@boxend}
+\newenvironment{CajaRegla}[1]
+  {\neo@boxbegin{1pt}{BurdinUrdin}{BoxBlue}{CarbonDark}{BurdinUrdin}{#1}}
+  {\neo@boxend}
+\makeatother
 
-\setlength{\parindent}{1.2em}
-\setlength{\parskip}{0.45em}
-
-\newcommand{\tag}[1]{\textcolor{AcidGreen}{\textbf{[#1]}}}
-\newcommand{\alert}[1]{\textcolor{WarningRed}{\textbf{#1}}}
-\newcommand{\key}[1]{\textcolor{BurdinBlue}{\textbf{#1}}}
-\newcommand{\subtitle}[1]{\textcolor{CupulaGold}{\textbf{#1}}}
-
-\newcommand{\NeoBox}[3]{%
-\par\smallskip\noindent\fcolorbox{#1}{CarbonDark}{%
-\begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}
-\vspace{0.35em}
-\textcolor{#1}{\textbf{#2}}\par\smallskip\textcolor{SteelGray}{#3}
-\vspace{0.25em}
-\end{minipage}}
-\par\smallskip
-}
-
-\newenvironment{CajaSecreto}{%
-\par\smallskip\noindent\fcolorbox{WarningRed}{CarbonDark}{\begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}\textcolor{WarningRed}{\textbf{SOLO PARA OJOS DEL DIRECTOR}}\par\smallskip}
-}{%
-\end{minipage}}
-\par\smallskip
-}
-
-\newenvironment{CajaCinematica}{%
-\par\smallskip\noindent\fcolorbox{BurdinBlue}{CarbonDark}{\begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}\textcolor{BurdinBlue}{\textbf{GUION CINEMÁTICO}}\par\smallskip}
-}{%
-\end{minipage}}\par\smallskip
-}
-
-\newenvironment{FichaEnemigo}{%
-\par\smallskip\noindent\fcolorbox{SteelGray}{CarbonDark}{\begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}\textcolor{SteelGray}{\textbf{FICHA DE ENEMIGO}}\par\smallskip}
-}{%
-\end{minipage}}\par\smallskip
-}
-
-\newenvironment{FichaArquetipo}{%
-\par\smallskip\noindent\fcolorbox{CupulaGold}{CarbonDark}{\begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}\textcolor{CupulaGold}{\textbf{PLAYBOOK}}\par\smallskip}
-}{%
-\end{minipage}}\par\smallskip
-}
-
-\newenvironment{CajaEjemplo}{%
-\par\smallskip\noindent\fcolorbox{AcidGreen}{CarbonDark}{\begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}\textcolor{AcidGreen}{\textbf{EJEMPLO DE PARTIDA}}\par\smallskip}
-}{%
-\end{minipage}}\par\smallskip
-}
-
-\newenvironment{statblock}[1]{%
-\begin{center}
-\begin{tabular}{|p{0.38\linewidth}|p{0.5\linewidth}|}
-\hline
-\textcolor{BurdinBlue}{\textbf{#1}} & \textcolor{CupulaGold}{\textbf{Estado}} \\
-\hline
-}{%
-\hline
-\end{tabular}
-\end{center}
-}
+% Etiquetas dentro de las cajas oscuras del guion.
+\newcommand{\cine}[1]{\textsf{\bfseries\textcolor{CupulaGold}{\MakeUppercase{#1}}}}
 
 \endinput

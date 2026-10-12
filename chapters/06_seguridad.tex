@@ -1,75 +1,38 @@
-\chapter{Fuerzas de seguridad y antagonistas}
+\chapter{Enemigos y seguridad corporativa}
+
+Para controlar los Zócalos Industriales y defender los intereses de Orekak-Corp, la filial de seguridad Ibaizabal-Burdin ha creado un arsenal de vigilancia y represión basado en la mitología vasca, utilizando el terror atávico para someter a los operarios.
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=0.95\linewidth]{security_guys.png}
-\caption{El archivo corporativo de Ibaizabal-Burdin.}
+\includegraphics[width=\linewidth]{security_guys.png}
+\caption{Basajaun, Tártalo T-4R, unidad Lamia y oficial Sorgin.}
 \end{figure}
 
-\section{Drones Tártalo}
-
-\begin{FichaEnemigo}
-\textbf{Nombre:} Tártalo T-4R\par
-\textbf{Tipo:} dron de patrulla\par
-\textbf{Etiquetas:} \tag{Clandestino}, \tag{Pesado}, \tag{Preciso}, \tag{Vigilado}\par
-\textbf{Descripción:} Drones con casco cilíndrico y ojo rojo. Detectan biometría y arritmias. Su luz estroboscópica paraliza por el terror.
-
-\textbf{Amenaza:} los Tártalos son los primeros que detectan a los Fracturados. Empleados en rutas de vigilancia, puntos ciegos y vigilancia industrial.
-\end{FichaEnemigo}
-
-\section{Exoesqueletos Basajaun}
-
-\begin{FichaEnemigo}
-\textbf{Nombre:} Basajaun\par
-\textbf{Tipo:} exoesqueleto industrial\par
-\textbf{Etiquetas:} \tag{Contundente}, \tag{Pesado}, \tag{Blindado}\par
-\textbf{Descripción:} Capataces y guardias pesados pilotando armaduras de metal, con sierras, ganchos y fuerza de aplastamiento.
-
-\textbf{Amenaza:} avanzan lentamente pero inevitablemente, atravesando pasillos y bloqueando rutas de escape.
-\end{FichaEnemigo}
-
-\section{Enjambres Galtzagorri}
-
-\begin{FichaEnemigo}
-\textbf{Nombre:} Galtzagorri\par
-\textbf{Tipo:} enjambre micro-dron\par
-\textbf{Etiquetas:} \tag{Consumible}, \tag{Alta temperatura}, \tag{Desgarrador}\par
-\textbf{Descripción:} Pequeños drones al rojo vivo diseñados para reparar grietas y zonas calientes. Sugaar los usa para atacar la respiración y los equipos.
-
-\textbf{Amenaza:} funden armas, cortocircuitan implantes o se cuelan en respiradores para asfixiar a la víctima.
-\end{FichaEnemigo}
-
-\section{Unidades Lamia}
-
-\begin{FichaEnemigo}
-\textbf{Nombre:} Lamia\par
-\textbf{Tipo:} ciborg anfibio\par
-\textbf{Etiquetas:} \tag{Oscuro}, \tag{Ácido}, \tag{Aislado}\par
-\textbf{Descripción:} Patruyas en canales de enfriamiento y alcantarillas. Emulan voces familiares para desorientar a sus víctimas.
-
-\textbf{Amenaza:} atacan sumergidos, arrastran a la gente bajo el agua ácida y desorientan con sus voces sintéticas.
-\end{FichaEnemigo}
-
-\section{División Sorgin}
-
-\begin{FichaEnemigo}
-\textbf{Nombre:} Sorgin\par
-\textbf{Tipo:} médica de seguridad\par
-\textbf{Etiquetas:} \tag{Consumible}, \tag{Clandestino}, \tag{Inyecta}\par
-\textbf{Descripción:} Humanas de la casta media con trajes blancos y visores negros, a cargo de la administración incruenta del horror.
-
-\textbf{Amenaza:} no usan armas de fuego. Emplean inyectores de neurotoxinas, drogas de obediencia y amnésicos para mantener el control.
-\end{FichaEnemigo}
-
-\section{Resumen táctico}
-
-Los enemigos de NeoBilbao no son solo fuerza bruta. Cada uno tiene un papel distinto dentro del diseño del terror:
+\begin{FichaEnemigo}{Drones «Tártalo» -- los cíclopes del cielo}
+Drones de patrulla modelo T-4R. Recrean la figura del cíclope mitológico en un chasis robótico de medio metro.
 \begin{itemize}
-  \item Los Tártalos vigilan.
-  \item Los Basajaun aplastan.
-  \item Los Galtzagorri abrasan.
-  \item Las Lamiak arrastran.
-  \item Las Sorgin administran el dolor, la obediencia y la narración del miedo.
+  \item \lead{El Ojo Cíclope:} escáner biométrico y LiDAR rojo que detecta arritmias. Emite luz estroboscópica para paralizar de terror.
+  \item \lead{Cobertura de lana:} matriz de polímero fonoabsorbente empapada de sirimiri. Flotan en absoluto silencio y no salen en los radares.
+  \item \lead{Armamento:} ganchos neumáticos para atrapar presas o anclarse a las cornisas.
 \end{itemize}
+\lead{Etiquetas (Sesión 1):} \tg{Ojo Cíclope}, \tg{Clandestino}
+\end{FichaEnemigo}
 
-Cada amenaza functiona como una extensión del mismo sistema: la Cúpula no necesita destruir a la gente. Solo necesita mantenerla asustada, rendida y a la vez convencida de que el dolor tiene un sentido.
+\begin{FichaEnemigo}{Exoesqueletos «Basajaun» -- los señores de la fundición}
+Exoesqueletos industriales pesados pilotados por los capataces leales. Recubiertos de gruesos cables y mangueras negras que simulan pelo animal, están equipados con herramientas de perforación y sierras. Lentos, pero imparables en los pasillos de la fábrica, aplastan huesos sin dudar.\par
+\lead{Etiquetas (Sesión 1):} \tg{Pesado}, \tg{Contundente}, \tg{Blindado}
+\end{FichaEnemigo}
+
+\begin{FichaEnemigo}{Enjambres «Galtzagorri» -- la plaga de mantenimiento}
+Micro-drones del tamaño de insectos con carcasas al rojo vivo, originalmente diseñados para reparar grietas a altas temperaturas. Sugaar puede usarlos para atacar: funden armas, se cuelan en respiradores para asfixiar con calor o cortocircuitan implantes en segundos.\par
+\lead{Etiquetas (Sesión 2):} \tg{Alta temperatura}, \tg{Consumible}
+\end{FichaEnemigo}
+
+\begin{FichaEnemigo}{Unidades «Lamia» -- las acechadoras del agua}
+Ciborgs o drones anfibios que patrullan el alcantarillado y los canales de enfriamiento. Tienen pies de pato poliméricos y emiten cantos sintéticos (o las voces de los hijos del Velo) para desorientar. Arrastran a sus víctimas bajo las aguas ácidas.
+\end{FichaEnemigo}
+
+\begin{FichaEnemigo}{División «Sorgin» -- el Círculo Médico}
+Humanas de la Casta Media vestidas con trajes blancos profilácticos y visores herméticos negros. No usan armas de fuego, sino inyectores neumáticos a distancia (neurotoxinas, drogas de obediencia). Son las responsables de la «Cosecha» pediátrica. Su frialdad es absoluta.\par
+\lead{Etiquetas (Sesión 4):} \tg{Clandestino}, \tg{Consumible}
+\end{FichaEnemigo}

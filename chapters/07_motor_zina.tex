@@ -1,106 +1,108 @@
 \chapter{Motor de reglas: ZINA}
 
-\section{Estadísticas emocionales}
+Reglas sencillas, narrativas y de supervivencia para NeoBilbao.
 
-En NeoBilbao las acciones se resuelven mediante emociones actuales, no por atributos físicos abstractos. Cuando un personaje actúa con riesgo, usa la emoción dominante del momento. Las estadísticas son un modificador que va de -1 a +2 y se interpretan en el marco de la ficción.
+\section{Las estadísticas emocionales}
+
+En NeoBilbao no existen los atributos físicos tradicionales. Las acciones de los personajes se resuelven utilizando sus emociones actuales como modificadores (de $-1$ a $+2$). Cómo te sientes determina cómo reaccionas ante el peligro:
 
 \begin{itemize}
-  \item \textbf{Enfadado:} fuerza bruta, confrontación directa, ruptura de obstáculos.
-  \item \textbf{Asustado:} supervivencia pura, huir, esquivar, reaccionar por instinto.
-  \item \textbf{Culpable:} resistencia mental, ingeniería social, hackeo, soporte ante el horror.
-  \item \textbf{Afligido:} empatía, consolar, leer la verdad, sostener a otros.
-  \item \textbf{Pacífico:} calma, análisis, infiltración silenciosa y sigilo.
+  \item \lead{Enfadado:} rebeldía, fuerza bruta, confrontación directa, romper obstáculos o enfrentarse cara a cara a una amenaza.
+  \item \lead{Asustado:} supervivencia pura, huida, esquivar, reaccionar por instinto o buscar refugio a ciegas.
+  \item \lead{Culpable:} el peso de la mentira, la resistencia mental, hackear sistemas corporativos o soportar los ataques psicológicos de Sugaar.
+  \item \lead{Afligido:} empatía, conectar con otros, descifrar verdades ocultas, mantener la humanidad o consolar a los aliados.
+  \item \lead{Pacífico:} calma calculada, análisis sereno del entorno, infiltración silenciosa y sigilo.
 \end{itemize}
 
-\textbf{Resolución:} el personaje tira 2d6 + modificador de la emoción pertinente.
-\begin{description}
-  \item[10 o más.] Éxito total.
-  \item[7 a 9.] Éxito con coste.
-  \item[6 o menos.] Fallo, y el Director ejecuta un movimiento duro.
-\end{description}
+\begin{CajaRegla}{Nota de campaña: la abstinencia del Etxea}
+Al romperse el Velo, el estado \emph{Alegre} desaparece permanentemente de la hoja del personaje. Ya no hay espacio para la euforia artificial.
+\end{CajaRegla}
+
+\section{La mecánica de resolución y el uso de etiquetas}
+
+Cuando un personaje realiza una acción arriesgada descrita en la ficción, tira 2d6 + el modificador de la estadística emocional que corresponda:
+
+\begin{itemize}
+  \item \lead{10 o más (éxito total):} consigues exactamente lo que querías sin complicaciones, aplicando las ventajas de las etiquetas de tu equipo o entorno.
+  \item \lead{7 a 9 (éxito con coste):} logras tu objetivo, pero el Director (MC) introduce una complicación. El Director puede gastar o activar las etiquetas del escenario o del equipo (por ejemplo, haciendo que un arma con etiqueta \tg{Consumible} se agote, o que el entorno con etiqueta \tg{Ácido} muerda el equipo del personaje).
+  \item \lead{6 o menos (fallo):} las cosas salen rematadamente mal. Pierdes la iniciativa y el Director ejecuta un movimiento duro.
+\end{itemize}
 
 \section{Zama: estrés, carga y descompresión}
 
-Los personajes no tienen barras de vida tradicionales. Acumulan\emph{ Zama}, una escala del 0 al 6.
+Los personajes no tienen barras de vida tradicionales. En su lugar, acumulan Zama (carga/estrés) en una escala del 0 al 6.
 
-\begin{itemize}
-  \item Se gana al recibir daño físico, presenciar horrores o fallar tiradas cruciales bajo presión.
-  \item Se reduce cuando el grupo encuentra un refugio seguro y dedica un momento a hablar, compartir comida o calmar los nervios.
-  \item Si llega a 6, el personaje sufre un colapso: huida, parálisis, desmayo o obediencia ciega.
-\end{itemize}
+\lead{Cómo se gana.} Al recibir ataques físicos, presenciar horrores (como la sala de tanques en la Sesión~4), o fallar tiradas clave ante la presión de Sugaar.
+
+\lead{Cómo se alivia (descomprimir).} Cuando el grupo encuentra un refugio seguro en los Zócalos (un conducto abandonado o un escondite de la resistencia) y dedica un momento a hablar, compartir una ración o calmar los nervios, pueden reducir 1 punto de Zama describiendo qué les consuela o qué recuerdo humano les ancla a la realidad.
+
+\lead{El límite del colapso.} Si un personaje llega a 6 de Zama, sufre un colapso. El Director le impondrá una consecuencia drástica en la ficción (quedar fuera de combate, huir presa del pánico absoluto, desmayarse o obedecer ciegamente un mandato del sistema por agotamiento mental).
 
 \section{Auzolan: reserva colaborativa}
 
-La solidaridad obrera se expresa como una reserva compartida de puntos de Auzolan. El grupo empieza con 1 punto por jugador al inicio de la sesión.
+Representa la solidaridad obrera heredada del Auzolan industrial. El grupo comparte una reserva común de puntos de Auzolan (empiezan con 1 punto por jugador al inicio de la sesión).
 
 \begin{itemize}
-  \item Gastar 1 punto para dar +1 a la tirada de otro personaje.
-  \item Gastar 1 punto para declarar un hecho relevante o una ventaja narrativa mínima.
+  \item \lead{Ayudar a un compañero:} gastas 1 punto de Auzolan para dar un $+1$ a la tirada de otro jugador, describiendo cómo te pones en peligro o le animas.
+  \item \lead{Declarar un hecho:} gastas 1 punto de Auzolan para alterar la narrativa menor («Conozco este sector porque trabajaba aquí», «Tengo un soplete escondido en esta tubería»).
 \end{itemize}
 
 \section{Movimientos básicos}
 
+Disponibles para todos los PJs.
+
 \begin{itemize}
-  \item \textbf{Atacar / Forcejear:} usa Enfadado o Asustado.
-  \item \textbf{Investigar / Analizar:} usa Pacífico o Culpable.
-  \item \textbf{Manipular / Convencer:} usa Afligido o Enfadado.
-  \item \textbf{Infiltrarse / Ocultarse:} usa Pacífico o Asustado.
+  \item \lead{Atacar / Forcejear (usando Enfadado o Asustado).} Cuando te enfrentas a un peligro físico directo o agredes a un enemigo, tira con tu emoción dominante. Con 10+, infliges daño o superas el obstáculo sin recibir represalias. Con 7--9, logras tu objetivo o dañas al rival, pero el Director impone un coste (recibes daño/estrés, tu equipo sufre desgaste o el enemigo contraataca). Con 6 o menos, fallas y el Director ejecuta un movimiento duro.
+  \item \lead{Investigar / Analizar (usando Pacífico o Culpable).} Cuando examinas con atención un lugar, un cadáver o un terminal en busca de pistas, tira con tu estado. Con 10+, haz 2 preguntas al Director sobre la escena. Con 7--9, haz solo 1 pregunta, pero el Director te revelará un detalle a cambio de una complicación o estrés.
+  \item \lead{Manipular / Convencer (usando Afligido o Enfadado).} Cuando intentas que un NPC (un obrero anestesiado, un Bitartekoa) haga lo que quieres apelando a sus sentimientos o a la rabia, tira. Con 10+, accede a tus demandas. Con 7--9, accede, pero exige algo a cambio o duda en el último momento.
+  \item \lead{Infiltrarse / Ocultarse (usando Pacífico o Asustado).} Cuando intentas moverte sin que te detecten los Tártalos o las cámaras, tira. Con 10+, pasas inadvertido en las sombras. Con 7--9, el sigilo se tambalea; haces ruido o dejas rastro, obligando a moverte rápido.
 \end{itemize}
 
-\section{Etiquetas (tags)}
+\section{El sistema de etiquetas (tags)}
 
-Las etiquetas definen propiedades del equipo, del entorno o de la condición del personaje. Funcionan como una capa narrativa y mecánica que permite reaccionar con dinamismo.
+En el motor «Zina», las etiquetas son palabras clave breves que definen las propiedades mecánicas y narrativas del equipo, el entorno o la condición de los personajes. Permiten dinamizar la ficción sin recurrir a cálculos complejos.
 
-\subsection*{Etiquetas de equipo y armas}
+\newcommand{\tagtable}[1]{%
+  \rowcolors{1}{white}{BoxGray}%
+  \begin{tabularx}{\linewidth}{@{\hspace{3pt}}>{\raggedright\arraybackslash}p{.30\linewidth}X@{}}
+  #1
+  \end{tabularx}\par\medskip}
 
-\begin{tabular}{|p{0.38\linewidth}|p{0.52\linewidth}|}
-\hline
-\tag{Contundente} & Ideal para romper blindajes o deformar chapa, pero ruidoso. \\
-\tag{Desgarrador} & Causa heridas graves y aumenta el riesgo de Zama. \\
-\tag{A distancia corta} & Funciona a corta distancia o en espacios reducidos. \\
-\tag{Pesado} & Penaliza sigilo y exige esfuerzo físico. \\
-\tag{Consumible} & Tiene uso limitado y se agota tras una tirada. \\
-\tag{Clandestino} & Fácil de ocultar de los escáneres. \\
-\tag{Preciso / A distancia} & Permite golpear sensores y objetivos lejanos. \\
-\tag{Improvisado} & Se rompe o degrada al sacar un éxito con coste o un fallo. \\
-\hline
-\end{tabular}
+\subsection{A. Etiquetas de equipo y armas (los Zócalos)}
 
-\subsection*{Etiquetas de entorno}
+Las herramientas improvisadas y el armamento de los obreros o de la seguridad corporativa se rigen por estas propiedades:
 
-\begin{tabular}{|p{0.38\linewidth}|p{0.52\linewidth}|}
-\hline
-\tag{Ácido} & El entorno corroe materia orgánica y metal. \\
-\tag{Oscuro / Niebla} & Cubre la visión y facilita el sigilo. \\
-\tag{Vibración constante} & Oculta pasos, pero dificulta el radio. \\
-\tag{Alta temperatura} & Fatiga y aumenta la Zama. \\
-\tag{Vigilado} & Hay cámaras, sensores o vigilancia activa. \\
-\tag{Inestable / Frágil} & Estructuras a punto de romperse. \\
-\tag{Electrificado} & Riesgo de descarga eléctrica. \\
-\hline
-\end{tabular}
+\tagtable{%
+\tg{Contundente} & Ideal para romper blindajes o deformar chapa, pero ruidoso. \\
+\tg{Desgarrador} & Causa heridas graves y desangramiento; aumenta el riesgo de elevar la Zama. \\
+\tg{A distancia corta} & Solo es efectivo en espacios reducidos o cuerpo a cuerpo. \\
+\tg{Pesado} & Requiere esfuerzo físico o penaliza las tiradas de sigilo (Pacífico o Asustado). \\
+\tg{Consumible} & El objeto tiene un uso limitado y se agota tras la tirada (como un soplete o un inyector). \\
+\tg{Clandestino} & Fácil de ocultar de los escáneres de los drones Tártalos. \\
+\tg{Preciso / A distancia} & Permite golpear objetivos lejanos o vulnerables (como los sensores ópticos de los drones), pero es inútil en forcejeos cuerpo a cuerpo. \\
+\tg{Improvisado} & Creado con chatarra de la fundición; se rompe o degrada automáticamente tras sacar un éxito con coste (7--9) o un fallo. \\}
 
-\subsection*{Etiquetas de condición}
+\subsection{B. Etiquetas de entorno (la Ría de Acero y la Cúpula)}
 
-\begin{tabular}{|p{0.38\linewidth}|p{0.52\linewidth}|}
-\hline
-\tag{Atemorizado} & Impide usar confianza o calma. \\
-\tag{Intoxicado} & Penaliza las acciones físicas. \\
-\tag{Desarmado} & Se ha perdido la herramienta principal. \\
-\tag{Aislado} & Separado del grupo por compuerta o derrumbe. \\
-\tag{Aturdido} & Pierde la iniciativa en el siguiente intercambio. \\
-\tag{Herido / Cojeando} & La movilidad está castigada. \\
-\hline
-\end{tabular}
+El Director (MC) puede invocar estas etiquetas del escenario para justificar complicaciones en los éxitos con coste o los movimientos duros:
 
-\section{Regla opcional del jugador}
+\tagtable{%
+\tg{Ácido} & El entorno corroe la materia orgánica y el metal; daña el equipo o la salud si te detienes. \\
+\tg{Oscuro / Niebla} & Ofrece cobertura natural para el sigilo, pero limita la visión y facilita las emboscadas. \\
+\tg{Vibración constante} & El ruido de la maquinaria oculta pasos y sonidos, pero dificulta las comunicaciones por radio. \\
+\tg{Alta temperatura} & El calor extremo fatiga a los personajes y acelera la ganancia de Zama. \\
+\tg{Vigilado} & Las cámaras o los sensores de ADUR-OS están activos en el sector. \\
+\tg{Inestable / Frágil} & Pasarelas oxidadas o estructuras a punto de ceder; un paso en falso activa una caída o un derrumbe. \\
+\tg{Electrificado} & Cables pelados o fugas de plasma energético; cruzar sin protección expone a daños eléctricos severos. \\}
 
-\textbf{Afrontar el Eco del Etxea:}\par
-Cuando Sugaar inyecta un recuerdo o amenaza a los hijos, el personaje puede tirar +Culpable o +Afligido.
-\begin{description}
-  \item[10+] Soporta la presión mental y gana +1 en su próxima acción.
-  \item[7-9] Duda profundamente; el Director hace un movimiento suave.
-  \item[6-] Se paraliza, o el Director ejecuta un movimiento duro.
-\end{description}
+\subsection{C. Etiquetas de condición (estados temporales)}
 
-\textbf{Nota de campaña:} al romperse el Velo, el estado Alegre desaparece permanentemente de la hoja del personaje.
+Como consecuencia de movimientos duros o ataques especiales de los enemigos, los personajes pueden recibir etiquetas de estado que limitan sus acciones hasta que sean curadas o superadas:
+
+\tagtable{%
+\tg{Atemorizado} & Impide usar estadísticas de confianza o calma; penaliza las tiradas de resolución. \\
+\tg{Intoxicado} & Los pulmones sufren por el gas o el sirimiri ácido; penaliza las acciones físicas. \\
+\tg{Desarmado} & Has perdido tu herramienta o arma principal en el fragor de la huida. \\
+\tg{Aislado} & Separado del grupo por una compuerta o un derrumbe; no puedes recibir apoyo de Auzolan. \\
+\tg{Aturdido} & La mente zumba por una descarga o un eco de Sugaar; pierdes la iniciativa en el próximo intercambio de acciones. \\
+\tg{Herido / Cojeando} & Tu movilidad está castigada; no puedes huir con éxito sin ayuda o sin sacrificar equipo. \\}

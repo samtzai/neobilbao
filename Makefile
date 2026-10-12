@@ -1,18 +1,11 @@
-LATEXMK := $(shell command -v latexmk 2>/dev/null)
-
-ifeq ($(LATEXMK),)
-COMPILE = lualatex -interaction=nonstopmode -halt-on-error -file-line-error main.tex
-CLEAN = rm -f *.aux *.log *.out *.toc *.synctex.gz *.fdb_latexmk *.fls
-else
-COMPILE = latexmk -lualatex -interaction=nonstopmode -halt-on-error -file-line-error main.tex
-CLEAN = latexmk -C main.tex
-endif
+ENGINE ?= pdflatex
+FLAGS  = -interaction=nonstopmode -halt-on-error -file-line-error
 
 all:
-	$(COMPILE)
-	$(COMPILE)
+	$(ENGINE) $(FLAGS) main.tex
+	$(ENGINE) $(FLAGS) main.tex
 
 clean:
-	$(CLEAN)
+	rm -f main.aux main.log main.out main.toc main.fls main.fdb_latexmk main.synctex.gz
 
 .PHONY: all clean
