@@ -1,0 +1,92 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{neobilbao}[2026/10/12 NeoBilbao style package]
+
+\RequirePackage[a5paper,margin=18mm]{geometry}
+\RequirePackage{graphicx}
+\RequirePackage{xcolor}
+\RequirePackage{hyperref}
+
+\definecolor{BurdinBlue}{HTML}{0088B4}
+\definecolor{OrekakRust}{HTML}{B84A1E}
+\definecolor{CupulaGold}{HTML}{C49E35}
+\definecolor{CarbonDark}{HTML}{20252B}
+\definecolor{AcidGreen}{HTML}{4A7C2A}
+\definecolor{SteelGray}{HTML}{C7CDD4}
+\definecolor{WarningRed}{HTML}{C63E34}
+\definecolor{Paper}{HTML}{F2E9DC}
+
+\newcommand{\industrialfont}{\sffamily}
+\newcommand{\capsfont}{\sffamily}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=BurdinBlue,
+  urlcolor=BurdinBlue,
+  citecolor=BurdinBlue
+}
+
+\pagecolor{CarbonDark}
+\color{SteelGray}
+
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0.45em}
+
+\newcommand{\tag}[1]{\textcolor{AcidGreen}{\textbf{[#1]}}}
+\newcommand{\alert}[1]{\textcolor{WarningRed}{\textbf{#1}}}
+\newcommand{\key}[1]{\textcolor{BurdinBlue}{\textbf{#1}}}
+\newcommand{\subtitle}[1]{\textcolor{CupulaGold}{\textbf{#1}}}
+
+\newcommand{\NeoBox}[3]{%
+\par\smallskip\noindent\fcolorbox{#1}{CarbonDark}{%
+\begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}
+\vspace{0.35em}
+\textcolor{#1}{\textbf{#2}}\par\smallskip\textcolor{SteelGray}{#3}
+\vspace{0.25em}
+\end{minipage}}
+\par\smallskip
+}
+
+\newenvironment{CajaSecreto}{%
+\par\smallskip\noindent\fcolorbox{WarningRed}{CarbonDark}{\begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}\textcolor{WarningRed}{\textbf{SOLO PARA OJOS DEL DIRECTOR}}\par\smallskip}
+}{%
+\end{minipage}}
+\par\smallskip
+}
+
+\newenvironment{CajaCinematica}{%
+\par\smallskip\noindent\fcolorbox{BurdinBlue}{CarbonDark}{\begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}\textcolor{BurdinBlue}{\textbf{GUION CINEMÁTICO}}\par\smallskip}
+}{%
+\end{minipage}}\par\smallskip
+}
+
+\newenvironment{FichaEnemigo}{%
+\par\smallskip\noindent\fcolorbox{SteelGray}{CarbonDark}{\begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}\textcolor{SteelGray}{\textbf{FICHA DE ENEMIGO}}\par\smallskip}
+}{%
+\end{minipage}}\par\smallskip
+}
+
+\newenvironment{FichaArquetipo}{%
+\par\smallskip\noindent\fcolorbox{CupulaGold}{CarbonDark}{\begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}\textcolor{CupulaGold}{\textbf{PLAYBOOK}}\par\smallskip}
+}{%
+\end{minipage}}\par\smallskip
+}
+
+\newenvironment{CajaEjemplo}{%
+\par\smallskip\noindent\fcolorbox{AcidGreen}{CarbonDark}{\begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}\textcolor{AcidGreen}{\textbf{EJEMPLO DE PARTIDA}}\par\smallskip}
+}{%
+\end{minipage}}\par\smallskip
+}
+
+\newenvironment{statblock}[1]{%
+\begin{center}
+\begin{tabular}{|p{0.38\linewidth}|p{0.5\linewidth}|}
+\hline
+\textcolor{BurdinBlue}{\textbf{#1}} & \textcolor{CupulaGold}{\textbf{Estado}} \\
+\hline
+}{%
+\hline
+\end{tabular}
+\end{center}
+}
+
+\endinput

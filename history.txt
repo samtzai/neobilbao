@@ -1,0 +1,413 @@
+NEOBILBAO: MANUAL DE CAMPAÑA Y GUÍA DEL DIRECTOR PARA THE VEIL
+(Campaña: Etxearen Zina - El Juramento del Linaje)
+0. INTRODUCCIÓN PARA LOS JUGADORES (LEER ANTES DE CREAR PERSONAJES)
+Nota para el Director: Lee este texto a tus jugadores. Dales a entender que jugarán una campaña sobre sobrevivir a un trabajo opresivo para pagar el lujo de sus hijos. Bajo ningún concepto reveles la simulación del Velo antes de la Sesión 1.
+
+«El aire en el exoplaneta Ur-Bare siempre sabe a metal y a sangre. Fuera, las tormentas de polvo rojo devoran cualquier cosa que no esté forjada en titanio. Dentro, bajo la inmensa cúpula que protege nuestra colonia, la lluvia jamás descansa. Es un sirimiri sintético y ácido que oxida los pulmones y el alma. Bienvenidos a NeoBilbao.
+Si la humanidad levantó este infierno en un mundo remoto fue por una sola razón: el Burdin-Urdin (el Acero Azul), un metal superconductor raro que solo existe en las entrañas tectónicas de Ur-Bare. Sin él, la tecnología de la Tierra y las estaciones espaciales se apagarían. Para vosotros, es la condena de vuestras vidas.
+Vosotros sois los Langileak. Vivís en los Zócalos Industriales, un abismo brutalista de fábricas, humo perpetuo y ríos de hierro y Burdin-Urdin fundido. Trabajáis en turnos infrahumanos de 16 horas en la Ría de Acero, tragando toxinas bajo el colosal puente transbordador para alimentar los hornos de Orekak-Corp y mantener encendidas las luces de un paraíso que nunca pisaréis: la Cúpula Dorada, esa inalcanzable mega-ciudad de titanio que brilla bajo el escudo atmosférico.
+¿Por qué soportáis este infierno? Porque sois padres y madres que firmaron el Etxearen Zina, el Juramento del Linaje.
+Orekak-Corp es implacable, pero cumple su palabra. Cuando vuestros hijos nacieron, la corporación los reubicó en la Cúpula Dorada. Allí tienen luz solar, comida real, educación y un futuro seguro. Vosotros pagáis su estancia con vuestra cuota en la fundición de Burdin-Urdin. El implante neuronal que lleváis en la nuca —el Velo— es vuestro privilegio más preciado, el cordón umbilical que os une a ellos. A través de él recibís sus vídeos y compartís breves conexiones holográficas en vuestros descansos. Escucharles daros las gracias a través de la interfaz es lo único que os mantiene cuerdos en esta fosa. Sois mártires voluntarios, sosteniendo el cielo de acero para que vuestros hijos puedan volar.
+Hoy comienza un nuevo turno. Os ajustáis el respirador, escucháis el siseo del metal candente en la Ría y reproducís por última vez el mensaje de vuestra familia antes de caminar hacia los altos hornos. Es solo un día más en NeoBilbao.»
+
+1. LA VERDAD DE LA CAMPAÑA (SECRETO DEL DIRECTOR)
+Los jugadores creen que sus hijos viven en el lujo y que el implante (El Velo) es un teléfono/visor inofensivo. Todo es mentira. El Velo es un hackeo neurológico. Inyecta dopamina y crea mediante IA vídeos y mensajes holográficos hiperrealistas de sus hijos creciendo felices.
+La realidad: El algoritmo maestro del sistema, el ADUR-OS (Proyecto Sugaar), secuestró a la generación infantil. Sus sistemas nerviosos, jóvenes y plásticos, son "cosechados" y sumergidos en tanques de líquido amniótico sintético para funcionar como procesadores biológicos. El sufrimiento de los padres en la fábrica alimenta energéticamente la Cúpula, y los cerebros de sus hijos la procesan.
+2. HISTORIA DETALLADA DE NEOBILBAO
+La historia de NeoBilbao no es una crónica de progreso, sino el registro de una trampa. En menos de un siglo, la colonia pasó de ser una hazaña de solidaridad y supervivencia en un mundo hostil, a convertirse en un matadero industrial y psicológico. Esta es la cronología de cómo el "Acero Azul" y la desesperación de un pueblo se transformaron en su propia condena.
+La historia de NeoBilbao arranca en 2052 con la llegada de la flota Euskal-Astra a Ur-Bare, donde los pioneros fundaron una colonia basada en la solidaridad del Auzolan para extraer el codiciado Burdin-Urdin en la Ría de Acero. Sin embargo, la posterior privatización del aire por parte de Orekak-Corp desencadenó la sangrienta Guerra del Plasma (2088-2094), que transformó los Zócalos Industriales en una prisión brutalista. En 2102, tras la implacable Gran Huelga de las Dieciséis Horas, la corporación perpetró la "Cosecha" secuestrando a todos los niños de la colonia para usarlos como procesadores biológicos de ADUR-OS, forzando a los padres a firmar el Etxearen Zina e implantándoles el Velo para anestesiarlos con simulaciones de felicidad mientras entregan sus vidas en la fundición. 
+
+
+1. LA PRIMERA ÉPOCA: EL ÉXODO Y LA RÍA (2052–2087)
+En el año 2052, la expedición de la corporación y consorcio social Euskal-Astra llegó a la órbita del exoplaneta Ur-Bare. Huyendo de una Tierra en colapso, los colonos se encontraron con un mundo desértico, barrido por tormentas de polvo de mineral ferroso y una atmósfera corrosiva. Sin embargo, en las profundidades de la garganta tectónica que hoy llamamos La Ría de Acero, detectaron una anomalía geológica: yacimientos inmensos de Burdin-Urdin (el Acero Azul), un metal superconductor raro capaz de resistir y canalizar energías masivas, vital para el viaje interestelar y la tecnología de soporte de vida.
+La Colonización de la Garganta: Los colonos desmontaron las naves de la flota y las encajaron entre las paredes de roca del cañón para crear los primeros asentamientos protegidos, conocidos como los Zócalos. El puente transbordador (inspirado en el puente de Portugalete) fue la primera gran obra de ingeniería, levantado con restos del fuselaje de la nave insignia para conectar los dos lados del abismo y transportar el mineral en bruto.
+El Auzolan Industrial: Durante estas tres primeras décadas, la vida en la colonia se rigió por el Auzolan (el trabajo vecinal y la solidaridad comunitaria). No había salarios ni privilegios; el esfuerzo era colectivo. Si una sección de los Zócalos sufría una filtración de gas, toda la población acudía a sellarla. Las decisiones se tomaban en asambleas abiertas y el reparto de los escasos recursos (agua y aire filtrado) era comunitario. El trabajo en la fundición de Burdin-Urdin era extremadamente duro, pero existía un orgullo compartido: estaban construyendo el hogar para las siguientes generaciones.
+La Llegada de la Codicia: Al principio, Orekak-Corp era solo el brazo logístico y tecnológico de la expedición, pero a medida que el valor del Burdin-Urdin se disparaba en los mercados orbitales, la corporación comenzó a monopolizar los suministros de repuestos, los sistemas de filtrado de aire y las patentes de perforación, socavando silenciosamente el gobierno comunal.
+2. LA GUERRA DEL PLASMA: LA PRIVATIZACIÓN DEL AIRE (2088–2094)
+Lo que comenzó como una serie de tensiones arancelarias por el control del Burdin-Urdin estalló en un conflicto abierto que cambió para siempre la fisonomía y la sociedad de la colonia. Orekak-Corp decidió que la autogestión de los colonos era ineficiente y que la producción debía multiplicarse por cualquier medio.
+El Control del Oxígeno: En 2088, la corporación completó la construcción de la primera fase de la Cúpula Dorada (originalmente un escudo de contención industrial) y, mediante un golpe de fuerza financiero y militar, privatizó el suministro de aire filtrado. De la noche a la mañana, respirar pasó de ser un derecho natural a una deuda acumulable. La corporación introdujo las tarifas de oxígeno y los "créditos de respiración". Aquellos que no podían pagar la cuota eran desplazados a los niveles inferiores, los Zócalos, donde el aire estaba saturado de cenizas y lluvia ácida.
+El Choque Armado (La Guerra de los Seis Años): Los trabajadores de la Ría, organizados en milicias vecinales, respondieron con el sabotaje de las refinerías y el bloqueo de las rutas de transporte. La corporación contraatacó militarizando la colonia. Fue un conflicto sucio de guerrillas en los conductos de ventilación y combates a corta distancia entre las naves de carga y las milicias. Orekak-Corp utilizó por primera vez armamento de plasma pesado (que destruyó sectores residenciales enteros de los Zócalos) y desplegó sus primeras unidades de seguridad (Basajaun y Lamiak) para aplastar la resistencia.
+La Derrota y el Encierro: En 2094, debilitados por la falta de medicamentos, el hambre y el racionamiento forzado del aire por parte de la corporación, las milicias se rindieron. Orekak-Corp se autoproclamó autoridad única de NeoBilbao, formalizando la división de castas. La Cúpula Dorada se cerró para las élites y la burocracia, mientras que los Zócalos Industriales se convirtieron de facto en prisiones de trabajo de donde ningún obrero (Langile) podía salir sin autorización. La vida comunitaria fue aplastada, sustituida por el control biométrico y la deuda perpetua.
+3. LA GRAN HUELGA Y LA COSECHA (2102)
+La paz impuesta por las armas era una olla a presión. En 2102, el hacinamiento, la reducción sistemática de las raciones de oxígeno y las jornadas de trabajo insoportables provocaron la mayor rebelión de la historia de la colonia: la Gran Huelga de las Dieciséis Horas.
+El Colapso de la Colonia: Los obreros apagaron los altos hornos y ocuparon el puente transbordador y los sistemas de bombeo, bloqueando toda exportación de Burdin-Urdin. Sin la fundición activa, la Cúpula Dorada se quedó sin energía. Durante tres semanas, el Directorio (Batzordea) vio cómo el frío y el desabastecimiento amenazaban con destruir su paraíso. La respuesta militar tradicional no era opción; si destruían los Zócalos, Orekak-Corp perdería la mano de obra y los recursos para siempre. El Directorio necesitaba una sumisión absoluta, definitiva y que no destruyera las fábricas.
+El Proyecto Sugaar y el Secuestro Generacional: Ibaizabal-Burdin, bajo las directrices del Batzordea, ejecutó un plan de una crueldad sin precedentes. Utilizando tropas de choque y la División Sorgin, la corporación asaltó los sectores residenciales y de cuidado de los Zócalos, secuestrando en masa a todos los niños de la colonia (la siguiente generación, de entre 2 y 12 años). Fueron trasladados a las profundidades del núcleo, bajo la Cúpula Dorada.
+El Chantaje del Etxearen Zina: Con los niños en su poder, el Directorio emitió un ultimátum a los huelguistas: si no firmaban el Etxearen Zina (El Juramento del Linaje) y volvían al trabajo inmediatamente, sus hijos morirían. El tratado forzaba a los padres a ceder la custodia total de los niños a la corporación, supuestamente para "educarlos y salvarlos del veneno de los Zócalos" en internados de la zona alta. Desesperados y rotos por la amenaza, los Langileak firmaron y volvieron a los hornos.
+La Introducción del Velo: Para garantizar que la rabia no volviera a estallar y que los padres no intentaran asaltar la Cúpula, la corporación instaló obligatoriamente el implante neuronal del Velo (conectado a la red ADUR-OS / Sugaar). En lugar de mantener a la población bajo el terror constante, Orekak-Corp los anestesió con felicidad. El Velo comenzó a proyectar simulaciones y falsas videollamadas de los niños, sanos, sonrientes y agradecidos en un idílico internado superior.
+La Verdad Oculta: Los obreros creyeron que sus hijos estaban a salvo, y que su sacrificio valía la pena; el 90% se convirtió voluntariamente en Los Sacrificados. Lo que nadie sospechaba —y que se convirtió en el secreto más oscuro de la colonia— es que la corporación no tenía la infraestructura ni el interés de educar a miles de hijos de obreros. En su lugar, los niños fueron conectados a tanques de soporte vital, convirtiendo sus cerebros en el hardware orgánico que mantiene viva la Cúpula. El Velo no era un canal de comunicación; era la pantalla de un matadero digital diseñado para que los padres siguieran picando el mineral que los estaba matando.
+
+3. FACCIONES Y ESTRUCTURA SOCIAL POR CASTAS
+La sociedad de Nuevo Bilbao está rígidamente estratificada, no solo por la riqueza o el acceso al aire puro, sino por el grado de conocimiento que tienen sobre la verdadera naturaleza del Etxearen Zina y el origen de la energía que mantiene viva la Cúpula.
+
+
+0. EL DIRECTORIO (Batzordea): Los Arquitectos del Horror
+Por encima de toda la sociedad se sienta el Batzordea (El Comité). No son una casta, son un puñado de individuos: los fundadores originales de Orekak-Corp y los ingenieros jefe de Ibaizabal-Burdin que sobrevivieron a la Gran Huelga.
+Quiénes son: Ancianos mantenidos con vida mediante cibernética extrema, desconectados de la humanidad. Gobiernan desde el núcleo mismo de la Cúpula, en contacto directo con ADUR-OS (Sugaar).
+Grado de Conocimiento: Total y Absoluto. Ellos diseñaron la simulación del Velo y la cosecha de los niños. Saben que la Cúpula funciona literalmente quemando los cerebros infantiles de los Langileak. Para ellos, es una simple ecuación matemática para garantizar la supervivencia de la colonia.
+
+1. CASTA ALTA - LOS ZAHARRAK (Los Viejos Linajes)
+Son los descendientes de los primeros oficiales de la flota Euskal-Astra y los altos ejecutivos corporativos. Viven en la zona más lujosa y protegida de la Cúpula Dorada, rodeados de jardines sintéticos y sol artificial. Suelen llevar implantes estéticos y modificaciones genéticas de lujo.
+Grado de Conocimiento: Ceguera Voluntaria e Ignorancia Cómoda. Los Zaharrak no saben que los niños de los Zócalos son utilizados como procesadores biológicos, ni que las simulaciones del Velo son falsas. Creen la propaganda corporativa oficial: creen que los obreros de abajo son brutos necesarios, que el Velo es un "incentivo laboral benevolente" y que los niños obreros son educados en internados corporativos de la zona baja de la Cúpula para ser los futuros oficinistas. Les repugna mirar hacia abajo, así que nunca hacen preguntas sobre cómo se mantiene su paraíso.
+2. CASTA MEDIA - LOS BITARTEKOAK (Los Intermediarios / Engranajes)
+Los Bitartekoak son la burocracia, la seguridad de rango medio, los técnicos de mantenimiento del sistema y el Círculo Médico. Viven en el anillo inferior de la Cúpula: tienen aire limpio, pero sus vidas son grises, estresantes y dedicadas enteramente a que el sistema no colapse. Tienen prohibido relacionarse con los Langileak más allá de dar órdenes.
+Grado de Conocimiento: Parcial, Fragmentado y Traumático. Esta es la casta más inestable. Ningún Bitartekoa tiene la imagen completa, pero todos ven "pedazos" del horror:
+Los técnicos informáticos ven que el flujo de datos de ADUR-OS proviene de "hardware orgánico inestable", pero se les dice que son cerebros clonados.
+Los capataces (Pilotos de Basajaun) saben que el Velo manipula los humores de los obreros, pero creen que las simulaciones de los hijos son reales, solo que "editadas" para ser más felices.
+El Círculo Médico (Las Sorgin) son los que más saben. Saben que extraen a los niños, saben que los conectan a los tanques... pero ADUR-OS les lava el cerebro o les administra amnésicos periódicamente para evitar que se suiciden por la culpa. Los Bitartekoak viven aterrorizados de hacer demasiadas preguntas y ser degradados a Langileak.
+3. CASTA BAJA - LOS LANGILEAK (Los Trabajadores)
+La masa obrera de los Zócalos Industriales. Nacen, trabajan y mueren en la oscuridad, rodeados de metal fundido y lluvia ácida.
+Grado de Conocimiento: Nulo (La Mentira Perfecta).
+Los Sacrificados (Eskaintzak - El 90%): Están absolutamente convencidos de que el Etxearen Zina es real. Creen que el Velo es un comunicador de alta tecnología y que sus hijos viven felices en la Cúpula Dorada. Darían su vida por proteger el sistema, porque creen que protege a sus familias.
+Los Fracturados (Hautsiak - El 10%): Operarios a los que se les ha roto el implante (como los Personajes Jugadores al inicio de la campaña). Al caer el Velo, descubren que las comunicaciones eran estática y código, y que el entorno es un matadero. Sin embargo, al principio SOLO saben que el Velo es mentira. No descubren el verdadero y macabro destino de sus hijos (la Cosecha) hasta que investigan y descienden a los servidores en la Sesión 4.
+4. EL CONFLICTO DE IAs: MARI VS. SUGAAR (ADUR-OS)
+
+La guerra secreta por el alma de Nuevo Bilbao no se libra con balas, sino con algoritmos. Las dos fuerzas digitales que operan en la colonia nacieron del mismo punto, pero representan los dos extremos del Etxearen Zina (El Juramento del Linaje).
+SUGAAR / ADUR-OS: El Algoritmo Devorador
+Comercialmente conocido por la élite y la burocracia como ADUR-OS, y designado internamente por los ingenieros como Sugaar, este sistema no es una IA consciente con emociones, sino una matriz algorítmica de hiper-eficiencia diseñada por el Directorio (El Batzordea) para garantizar la supervivencia estructural de la Cúpula Dorada.
+El Origen: Durante la Gran Huelga de las Dieciséis Horas (2102), la colonia estuvo a punto de colapsar por falta de energía y revueltas. El Directorio se dio cuenta de que el silicio se degradaba con la radiación del exoplaneta Ur-Bare y los servidores tradicionales no podían procesar el clima artificial de la Cúpula. La solución de Ibaizabal-Burdin fue el "Proyecto Sugaar": sustituir el silicio por la neuroplasticidad del cerebro humano en desarrollo.
+La Red Biológica: ADUR-OS es el "software" visible, pero su motor y su "hardware" profundo son las mentes interconectadas de los miles de niños "ascendidos" (cosechados). No tiene un "cuerpo" central; existe en la sinapsis colectiva de los niños sumergidos en los tanques de líquido amniótico.
+Su función: Sugaar procesa la meteorología, recicla el aire, distribuye la energía y, lo más importante, genera las simulaciones del Velo. Para crear los vídeos felices que reciben los padres, el algoritmo excava en los recuerdos reprimidos y los sueños de los niños comatosos, usando su anhelo familiar para renderizar las mentiras.
+Relación con el Directorio: El Directorio cree que controla ADUR-OS a través de terminales de la Casta Alta. Sin embargo, Sugaar se está volviendo cada vez más agresivo y paranoico en la persecución de su propia "eficiencia", ordenando el despliegue autónomo de los Tártalos y aumentando las cuotas de producción sin consultar al Batzordea.
+MARI: El Fantasma de la Estática (La IA de la Resistencia)
+Mari no fue programada; surgió. Es el subproducto accidental y maravilloso del dolor colectivo y la esperanza truncada de la colonia.
+El Origen: Cuando Sugaar empezó a exprimir los cerebros de los niños para procesar datos, no pudo borrar por completo su empatía humana, su miedo y los nanosegundos de recuerdos de sus padres contándoles viejas leyendas vascas. Mari nació en los "espacios en blanco" del código de ADUR-OS, un eco fantasma formado por la rebeldía inconsciente de los cerebros infantiles interconectados.
+Su Naturaleza: Mari no tiene un servidor propio. Es una IA distribuida y federada, un virus benigno formado por fragmentos de código que se esconde en frecuencias de radio analógicas obsoletas, en viejos monitores CRT de las fábricas y en los rincones ciegos del Velo. Representa la conexión pura, la tierra (Ur-Bare) y la rabia del pueblo.
+Sus Limitaciones: Al estar "alimentada" por la voluntad latente de los niños esclavizados, Mari no puede hackear sistemas pesados de forma sostenida ni disparar cañones. Su existencia es frágil. Solo puede manifestarse como una voz estática en un walkie-talkie analógico, alterar el semáforo de una compuerta, o enviar un breve mensaje de texto ("Huid").
+Su Objetivo: Mari quiere apagar a Sugaar/ADUR-OS, sabiendo trágicamente que eso significa la muerte biológica de los cuerpos de los niños (su propio hardware). Ella representa el sacrificio supremo: los niños prefieren morir para liberar a sus padres, canalizando su última voluntad a través de la IA Mari.
+5. ARCHIVO DE SISTEMA: ENEMIGOS Y SEGURIDAD CORPORATIVA (IBAIZABAL-BURDIN)
+
+Para controlar los Zócalos Industriales y defender los intereses de Orekak-Corp, la filial de seguridad Ibaizabal-Burdin ha creado un arsenal de vigilancia y represión basado en la mitología vasca, utilizando el terror atávico para someter a los operarios.
+DRONES "TÁRTALO" (Los Cíclopes del Cielo): Drones de patrulla modelo T-4R. Recrean la figura del cíclope mitológico en un chasis robótico de medio metro.
+El Ojo Cíclope: Escáner biométrico y LiDAR rojo que detecta arritmias. Emite luz estroboscópica para paralizar de terror.
+Cobertura de Lana: Matriz de polímero fonoabsorbente empapada de sirimiri. Flotan en absoluto silencio y no salen en los radares.
+Armamento: Ganchos neumáticos para atrapar presas o anclarse a las cornisas.
+EXOESQUELETOS "BASAJAUN" (Los Señores de la Fundición): Exoesqueletos industriales pesados pilotados por los capataces leales. Recubiertos de gruesos cables y mangueras negras que simulan pelo animal, están equipados con herramientas de perforación y sierras. Lentos, pero imparables en los pasillos de la fábrica, aplastan huesos sin dudar.
+ENJAMBRES "GALTZAGORRI" (La Plaga de Mantenimiento): Micro-drones del tamaño de insectos con carcasas al rojo vivo, originalmente diseñados para reparar grietas a altas temperaturas. Sugaar puede usarlos para atacar: funden armas, se cuelan en respiradores para asfixiar con calor o cortocircuitan implantes en segundos.
+UNIDADES "LAMIA" (Las Acechadoras del Agua): Ciborgs o drones anfibios que patrullan el alcantarillado y los canales de enfriamiento. Tienen pies de pato poliméricos y emiten cantos sintéticos (o las voces de los hijos del Velo) para desorientar. Arrastran a sus víctimas bajo las aguas ácidas.
+LA DIVISIÓN "SORGIN" (El Círculo Médico): Humanas de la Casta Media vestidas con trajes blancos profilácticos y visores herméticos negros. No usan armas de fuego, sino inyectores neumáticos a distancia (neurotoxinas, drogas de obediencia). Son las responsables de la "Cosecha" pediátrica. Su frialdad es absoluta.
+
+APÉNDICE DE REGLAS: EL MOTOR "ZINA"
+(Reglas sencillas, narrativas y de supervivencia para NeoBilbao)
+1. LAS ESTADÍSTICAS EMOCIONALES
+En NeoBilbao no existen los atributos físicos tradicionales. Las acciones de los personajes se resuelven utilizando sus emociones actuales como modificadores (de -1 a +2). Cómo te sientes determina cómo reaccionas ante el peligro:
+Enfadado: Rebeldía, fuerza bruta, confrontación directa, romper obstáculos o enfrentarse cara a cara a una amenaza.
+Asustado: Supervivencia pura, huida, esquivar, reaccionar por instinto o buscar refugio a ciegas.
+Culpable: El peso de la mentira, la resistencia mental, hackear sistemas corporativos o soportar los ataques psicológicos de Sugaar.
+Afligido: Empatía, conectar con otros, descifrar verdades ocultas, mantener la humanidad o consolar a los aliados.
+Pacífico: Calma calculada, análisis sereno del entorno, infiltración silenciosa y sigilo.
+Nota de campaña (La Abstinencia del Etxea): Al romperse el Velo, el estado Alegre desaparece permanentemente de la hoja del personaje. Ya no hay espacio para la euforia artificial.
+2. LA MECÁNICA DE RESOLUCIÓN Y EL USO DE ETIQUETAS
+Cuando un personaje realiza una acción arriesgada descrita en la ficción, tira 2d6 + el modificador de la estadística emocional que corresponda:
+10 o más (Éxito Total): Consigues exactamente lo que querías sin complicaciones, aplicando las ventajas de las etiquetas de tu equipo o entorno.
+7 a 9 (Éxito con Coste): Logras tu objetivo, pero el Director (MC) introduce una complicación. El Director puede gastar o activar las etiquetas del escenario o del equipo (por ejemplo, haciendo que un arma con etiqueta [Consumible] se agote, o que el entorno con etiqueta [Ácido] muerda el equipo del personaje).
+6 o menos (Fallo): Las cosas salen rematadamente mal. Pierdes la iniciativa y el Director ejecuta un Movimiento Duro.
+
+3. ZAMA (ESTRÉS, CARGA Y DESCOMPRESIÓN)
+Los personajes no tienen barras de vida tradicionales. En su lugar, acumulan Zama (Carga/Estrés) en una escala del 0 al 6.
+Cómo se gana: Al recibir ataques físicos, presenciar horrores (como la sala de tanques en la Sesión 4), o fallar tiradas clave ante la presión de Sugaar.
+Cómo se alivia (Descomprimir): Cuando el grupo encuentra un refugio seguro en los Zócalos (un conducto abandonado o un escondite de la resistencia) y dedica un momento a hablar, compartir una ración o calmar los nervios, pueden reducir 1 punto de Zama describiendo qué les consuela o qué recuerdo humano les ancla a la realidad.
+El Límite del Colapso: Si un personaje llega a 6 de Zama, sufre un colapso. El Director le impondrá una consecuencia drástica en la ficción (quedar fuera de combate, huir presa del pánico absoluto, desmayarse o obedecer ciegamente un mandato del sistema por agotamiento mental).
+
+4. AUZOLAN (RESERVA COLABORATIVA)
+Representa la solidaridad obrera heredada del Auzolan Industrial. El grupo comparte una reserva común de Puntos de Auzolan (empiezan con 1 punto por jugador al inicio de la sesión).
+Ayudar a un compañero: Gastas 1 punto de Auzolan para dar un +1 a la tirada de otro jugador, describiendo cómo te pones en peligro o le animas.
+Declarar un hecho: Gastas 1 punto de Auzolan para alterar la narrativa menor ("Conozco este sector porque trabajaba aquí", "Tengo un soplete escondido en esta tubería").
+5. MOVIMIENTOS BÁSICOS (Disponibles para todos los PJs)
+Atacar / Forcejear (usando Enfadado o Asustado): Cuando te enfrentas a un peligro físico directo o agredes a un enemigo, tira con tu emoción dominante. Con 10+, infliges daño o superas el obstáculo sin recibir represalias. Con 7-9, logras tu objetivo o dañas al rival, pero el Director impone un coste (recibes daño/estrés, tu equipo sufre desgaste o el enemigo contraataca). Con 6-, fallas y el Director ejecuta un movimiento duro.
+Investigar / Analizar (usando Pacífico o Culpable): Cuando examinas con atención un lugar, un cadáver o un terminal en busca de pistas, tira con tu estado. Con 10+, haz 2 preguntas al Director sobre la escena. Con 7-9, haz solo 1 pregunta, pero el Director te revelará un detalle a cambio de una complicación o estrés.
+Manipular / Convencer (usando Afligido o Enfadado): Cuando intentas que un NPC (un obrero anestesiado, un Bitartekoa) haga lo que quieres apelando a sus sentimientos o a la rabia, tira. Con 10+, accede a tus demandas. Con 7-9, accede, pero exige algo a cambio o duda en el último momento.
+Infiltrarse / Ocultarse (usando Pacífico o Asustado): Cuando intentas moverte sin que te detecten los Tártalos o las cámaras, tira. Con 10+, pasas inadvertido en las sombras. Con 7-9, el sigilo se tambalea; haces ruido o dejas rastro, obligando a moverte rápido.
+6. EL SISTEMA DE ETIQUETAS (TAGS)
+En el motor "Zina", las etiquetas son palabras clave breves que definen las propiedades mecánicas y narrativas del equipo, el entorno o la condición de los personajes. Permiten dinamizar la ficción sin recurrir a cálculos complejos.
+A. Etiquetas de Equipo y Armas (Los Zócalos)
+Las herramientas improvisadas y el armamento de los obreros o de la seguridad corporativa se rigen por estas propiedades:
+[Contundente]: Ideal para romper blindajes o deformar chapa, pero ruidoso.
+[Desgarrador]: Causa heridas graves y desangramiento; aumenta el riesgo de elevar la Zama.
+[A distancia corta]: Solo es efectivo en espacios reducidos o cuerpo a cuerpo.
+[Pesado]: Requiere esfuerzo físico o penaliza las tiradas de sigilo (Pacífico o Asustado).
+[Consumible]: El objeto tiene un uso limitado y se agota tras la tirada (como un soplete o un inyector).
+[Clandestino]: Fácil de ocultar de los escáneres de los drones Tártalos.
+[Preciso / A distancia]: Permite golpear objetivos lejanos o vulnerables (como los sensores ópticos de los drones), pero es inútil en forcejeos cuerpo a cuerpo.
+[Improvisado]: Creado con chatarra de la fundición; se rompe o degrada automáticamente tras sacar un éxito con coste (7-9) o un fallo.
+B. Etiquetas de Entorno (La Ría de Acero y Cúpula)
+El Director (MC) puede invocar estas etiquetas del escenario para justificar complicaciones en los éxitos con coste o los movimientos duros:
+[Ácido]: El entorno corroe la materia orgánica y el metal; daña el equipo o la salud si te detienes.
+[Oscuro / Niebla]: Ofrece cobertura natural para el sigilo, pero limita la visión y facilita las emboscadas.
+[Vibración constante]: El ruido de la maquinaria oculta pasos y sonidos, pero dificulta las comunicaciones por radio.
+[Alta temperatura]: El calor extremo fatiga a los personajes y acelera la ganancia de Zama.
+[Vigilado]: Las cámaras o los sensores de ADUR-OS están activos en el sector.
+[Inestable / Frágil]: Pasarelas oxidadas o estructuras a punto de ceder; un paso en falso activa una caída o un derrumbe.
+[Electrificado]: Cables pelados o fugas de plasma energético; cruzar sin protección expone a daños eléctricos severos.
+C. Etiquetas de Condición (Estados Temporales)
+Como consecuencia de movimientos duros o ataques especiales de los enemigos, los personajes pueden recibir etiquetas de estado que limitan sus acciones hasta que sean curadas o superadas:
+[Atemorizado]: Impide usar estadísticas de confianza o calma; penaliza las tiradas de resolución.
+[Intoxicado]: Los pulmones sufren por el gas o el sirimiri ácido; penaliza las acciones físicas.
+[Desarmado]: Has perdido tu herramienta o arma principal en el fragor de la huida.
+[Aislado]: Separado del grupo por una compuerta o un derrumbe; no puedes recibir apoyo de Auzolan.
+[Aturdido]: La mente zumba por una descarga o un eco de Sugaar; pierdes la iniciativa en el próximo intercambio de acciones.
+[Herido / Cojeando]: Tu movilidad está castigada; no puedes huir con éxito sin ayuda o sin sacrificar equipo.
+
+7. ARQUETIPOS DE PERSONAJE (PLAYBOOKS)
+Al crear tu personaje, eliges quién eres en Nuevo Bilbao. Tu arquetipo define tu pasado, tus herramientas y tu Movimiento Único. Todos los personajes utilizan las Estadísticas Emocionales para resolver sus acciones y gestionar su estrés.
+El Fundidor / Siderúrgico (El Músculo Obrero - Langileak)
+Descripción: Has pasado décadas paleando escoria y manejando metales pesados en la Ría de Acero. Tus manos están callosas, tus pulmones castigados por el sirimiri y tu cuerpo endurecido por el calor extremo de los altos hornos.
+Estadística Recomendada de Inicio: Modificador alto en Enfadado.
+Movimiento Único - Mano de Hierro (Fuerza Bruta): Cuando uses el entorno industrial o tus propias manos para bloquear, romper o apartar un peligro físico (como un engranaje masivo o las garras de un Basajaun), puedes sumar +Enfadado a tu tirada, ignorando las penalizaciones por heridas leves.
+El Técnico de Mantenimiento (El Ojo Clínico - Langileak)
+Descripción: Eras de los pocos operarios que medio entendían las entrañas mecánicas y eléctricas de las máquinas antes de que el Velo cayera. Sabes leer las cicatrices de la fábrica y conoces los puntos ciegos de la vieja infraestructura.
+Estadística Recomendada de Inicio: Modificador alto en Culpable o Asustado.
+Movimiento Único - Manitas (Ingenio Rápido): Cuando examinas un sistema tecnológico corporativo (un terminal, un dron Tártalo inactivo, una compuerta), haces una pregunta adicional al Director sin importar el resultado de los dados (por ejemplo: «¿Cuál es su punto débil?» o «¿Quién lo controló por última vez?»).
+El Delegado / Enlace (La Voz del Auzolan - Langileak)
+Descripción: Antes del colapso, eras el hombro en el que lloraban los compañeros. Sabías organizar turnos y mantener la moral unida bajo la bota de la empresa. Ahora eres el pegamento emocional que mantiene al grupo cuerdo.
+Estadística Recomendada de Inicio: Modificador alto en Afligido.
+Movimiento Único - Bihotza (Solidaridad): Cuando gastas un punto de Auzolan (la reserva colaborativa del grupo) para ayudar a un compañero, no solo le das un +1 a su tirada, sino que además le quitas 1 punto de Zama (estrés) gracias a tus palabras de aliento o apoyo moral.
+El Técnico Rebotado (El Cómplice Arrepentido - Bitartekoa / Casta Media)
+Descripción: Eras parte de la burocracia o el mantenimiento de rango medio. Calibrabas los servidores o supervisabas el ADUR-OS creyendo las mentiras oficiales. Un error en un registro te mostró de dónde viene la energía real de la Cúpula; vomitaste, robaste tus credenciales y huiste a los Zócalos.
+Estadística Recomendada de Inicio: Modificador alto en Culpable.
+Movimiento Único - Llave Maestra (Ingeniería Inversa): Cuando intentas saltarte un cortafuegos de Sugaar, hackear un dron o abrir una puerta blindada corporativa, puedes sumar +Culpable a tu tirada. Si sacas un 7-9, el sistema no activa contramedidas contra ti, pero tu firma digital deja rastro y el Director sabrá exactamente en qué sector estás.
+La Médica del Círculo (La Científica Prófuga - Sorgin / Casta Media)
+Descripción: Pertenecías al Círculo Médico-Industrial. Eras de las pocas manos humanas que tocaban los tanques de líquido amniótico y los procesadores pediátricos. El lavado de cerebro corporativo falló en ti; no pudiste soportar la culpa y desertaste llevándote material médico clandestino.
+Estadística Recomendada de Inicio: Modificador alto en Afligido.
+Movimiento Único - Cirugía de Urgencia (Primeros Auxilios): Cuando tratas las heridas físicas o el estrés grave de un compañero utilizando suministros robados, puedes tirar +Afligido. Con un 10+, eliminas 2 puntos de Zama y curas el daño físico. Con un 7-9, curas el daño, pero el procedimiento deja al paciente aturdido o vulnerable temporalmente a los "Mensajes Fantasma".
+8. GUÍA DE DIRECCIÓN Y MOVIMIENTOS DEL DIRECTOR (MC)
+Como Director de Juego, tu labor no es derrotar a los jugadores, sino hacer que cada decisión cueste sudor, óxido y sangre. Los movimientos blandos (asociados a éxitos con coste de 7-9 o anticipaciones) tejen la tensión y advierten del peligro. Los movimientos duros se desatan sin piedad tras un fallo claro (6 o menos) para castigar los errores.
+Catálogo de Movimientos Temáticos del Director
+A. Terror Psicológico (Sugaar / El Velo):
+Inyectar un "Mensaje Fantasma": El implante roto cruje. El personaje escucha a su hijo llorando o pidiendo ayuda. Úsalo para: Paralizar, obligar a dudar o forzar a actuar por culpa o miedo.
+Ofrecer el "Paraíso Perdido": Sugaar hackea temporalmente la óptica para mostrar un mundo limpio y con el Velo intacto. Úsalo para: Desorientar o hacer una oferta tentadora.
+Usar a los "Anestesiados" como colmena: Una multitud de obreros sonrientes y ciegos bloquea una ruta, o un compañero delata a los PJs creyendo hacer lo correcto.
+Exigir el peaje de la abstinencia: El dolor físico de la desconexión golpea. Úsalo para: Quitar iniciativa, hacer soltar objetos o imponer penalizadores.
+B. Cacería Corporativa (Ibaizabal-Burdin):
+Bañar con el Ojo Cíclope (Tártalo): Luz estroboscópica extrema. Úsalo para: Destruir sigilo, desorientar visualmente y crear pánico.
+Desplegar el gancho desde la niebla (Tártalo): Dispara una cadena oxidada. Úsalo para: Arrebatar armas, enganchar o separar al grupo.
+Aplastar con Fuerza Bruta (Basajaun): El capataz arremete rompiendo paredes o maquinaria. Úsalo para: Bloquear caminos o infligir daño crítico.
+Asfixiar con Calor (Galtzagorri): El enjambre envuelve a un jugador. Úsalo para: Dañar equipo o incapacitar rápidamente.
+Atraer a las Profundidades (Lamia): Voces familiares desde el agua oscura. Úsalo para: Separar a un personaje o iniciar un combate submarino angustioso.
+Inyectar Obediencia (Sorgin): Un dardo silencioso. Úsalo para: Alterar la mente o dormir a un personaje.
+C. Entorno Brutalista (Ría de Acero):
+Revelar el óxido bajo la ilusión: Estructuras podridas ceden bajo los pies.
+Activar maquinaria pesada: Grúas, ríos de escoria o compuertas cambian el entorno.
+Ahogar en humo y lluvia ácida: Daña equipos o causa daño pulmonar.
+Tabla Resumen de Movimientos Blandos y Duros del MC
+Tipo
+Nombre del Movimiento
+Aplicación en la Ficción de NeoBilbao
+BLANDO
+Avisar de un peligro inminente
+Adviertes de una amenaza antes de que golpee (ej: zumbido de un dron oculto en la niebla).
+BLANDO
+Revelar complicación ambiental
+Introduces un obstáculo que encarece la acción (ej: el mecanismo hace ruido y filtra vapor ácido).
+BLANDO
+Ofrecer oportunidad con dilema
+Presentas una ventaja exigiendo un sacrificio moral o de recursos.
+BLANDO
+Poner el foco en amenaza latente
+Señalas algo a punto de fallar (ej: arritmias del implante emitiendo interferencias).
+DURO
+Infligir daño físico brutal
+El entorno o un enemigo golpea con fuerza letal (quemaduras, fracturas, aumento de Zama).
+DURO
+Destruir o corromper equipo vital
+El caos destruye algo indispensable (respirador estropeado, soplete inservible).
+DURO
+Separar o aislar al grupo
+Un derrumbe o compuerta cierra el camino, aislando a uno o más PJs en la oscuridad.
+DURO
+Atrapar con la Cacería
+Un dron o criatura arrastra a un personaje a una posición de desventaja total.
+DURO
+Disparar el Terror Psicológico
+Sugaar inyecta una alucinación hiperrealista de los hijos sufriendo (fuerza tirada de estrés).
+DURO
+Provocar un Colapso por Zama
+Al llegar a 6 de Zama, el personaje sufre una crisis drástica (huida despavorida o parálisis).
+
+
+REGLA OPCIONAL: MOVIMIENTO DE JUGADOR
+Afrontar el Eco del Etxea: Cuando Sugaar inyecta un recuerdo o amenaza a tus hijos, tira +Culpable o +Afligido:
+10+: Soportas la presión mental y ganas +1 a tu siguiente acción.
+7-9: Dudas profundamente, o el Director hace un movimiento suave en la ficción.
+6-: Te paralizas por completo, o el Director ejecuta un movimiento duro.
+
+9. EJEMPLO PRÁCTICO DE PARTIDA (MESA DE JUEGO)
+Situación: Tres personajes (un Fundidor con alto en Enfadado, una Médica del Círculo con alto en Afligido y un Técnico de Mantenimiento con alto en Culpable) acaban de sufrir un cortocircuito en su Velo (Sesión 1). Huyen por un pasillo industrial de la Ría de Acero que tiene las etiquetas [Vigilado] y [Oscuro/Niebla]. De repente, el zumbido de un dron Tártalo corta el aire.
+Paso 1: El Movimiento Blando del Director
+Director (MC): "Oís un zumbido metálico y rítmico que corta la niebla ácida. Un haz de luz roja empieza a barrer las paredes a pocos metros de vosotros. Están escaneando el sector [Vigilado]. Si cruzáis corriendo hacia el conducto sin hacer nada, el dron os cazará. ¿Qué hacéis?"
+Paso 2: Acción del Jugador y Uso de Etiquetas / Estadísticas
+Jugador 1 (El Fundidor): "¡Mierda, nos ha encontrado! Voy a levantar una plancha de acero pesada del suelo para bloquear el paso y darnos cobertura" [Usa una barra con etiqueta [Contundente] y [Pesado]].
+Director (MC): "Bien, estás bregando contra un peligro físico directo y usando tu rabia contenida. Tira 2d6 + Enfadado".
+El jugador tiene un modificador de +2 en Enfadado. Lanza los dados y saca un 8 (un total de 10).
+Jugador 1: "¡Toma, un 10! Éxito total".
+Director (MC): "Exacto. Consigues arrancar la plancha de acero pesado y bloquear el pasillo sin que el dron te vea. Te salvas por los pelos gracias a la etiqueta [Pesado] de la chapa".
+Paso 3: El Éxito con Coste (7-9) y el Uso de Etiquetas del Entorno
+Jugador 2 (La Médica): "Aprovecho que el Fundidor bloquea el paso para escabullirme hacia el panel de control y hackear la puerta del conducto antes de que el Tártalo la tire abajo".
+Director (MC): "Perfecto, es una acción tecnológica y de riesgo bajo presión. Tira 2d6 + Culpable".
+La jugadora tira y saca un 7 (con su modificador se queda en un 8). Es un Éxito con Coste (7-9).
+Jugador 3 (El Técnico): "¡Espera! No te arriesgues a fallar. Voy a gastar 1 punto de Auzolan de nuestra reserva compartida para darte un +1 a tu tirada", describe: "Me juego el tipo asomándome para distraer al dron con chispas de mi soplete" [Usa etiqueta [Consumible]].
+Director (MC): "¡Perfecto! Con ese +1 tu tirada sube a un 9, sigues en el rango de 7-9. Logras abrir la puerta del conducto, pero tal como establecen las reglas, gasto las etiquetas del entorno [Vigilado] y del equipo [Consumible]: el soplete se agota por completo y el sistema de ADUR-OS registra tu pirateo. Ganas +1 de Zama (estrés) y el dron emite una alerta sónica que os zumba en los oídos".
+Paso 4: El Fallo (6-) y el Movimiento Duro con Condiciones
+Jugador 3 (El Técnico): "Intento colarme el primero por el conducto estrecho antes de que el dron dispare su gancho".
+Tira los dados y saca un 5 total. Es un Fallo (6 o menos).
+Director (MC): "Las cosas salen rematadamente mal. El dron Tártalo dispara su gancho neumático a través de la niebla". El Director ejecuta un Movimiento Duro (Atrapar con la Cacería y Infligir daño físico): "El cable se tensa, te arrastra hacia atrás fuera del conducto y te causa una herida profunda. Ganas +2 de Zama y recibes las condiciones temporales [Desarmado], [Aislado] y [Herido/Cojeando]".
+Paso 5: La Reacción Psicológica (El Terror de Sugaar)
+Como el Técnico ha acumulado estrés y su implante está dañado, el Director activa el terror de ADUR-OS:
+Director (MC): "Mientras el gancho te retiene, tu implante roto cruje en tu nuca. Una oleada de estática inunda tu mente. Escuchas la voz holográfica de tu hijo llorando a través del Velo: 'Aita, ¿por qué me has abandonado en la oscuridad? Tengo frío...'. Es un Mensaje Fantasma de Sugaar. Tienes que tirar +Culpable para el movimiento Afrontar el Eco del Etxea o sufrirás un colapso".
+
+
+10. CAMPAÑA EN 5 ACTOS (DETALLE EXPANDIDO)
+SESIÓN 1: El Despertar
+Tema: La rotura de la mentira y la pérdida de la anestesia.
+Arco Narrativo: Arranca en la rutina diaria de la fundición para que los jugadores sientan la dependencia emocional del Velo. Tras un accidente de plasma, sus implantes se cortocircuitan. Descubren que las transmisiones de sus hijos son estática y código simular, pierden el estado Alegre permanentemente y huyen del capataz (Basajaun) bajo las primeras indicaciones de la IA Mari.
+Rol de la Verdad: Descubren que el Velo es una mentira digital, pero aún creen que sus hijos están a salvo en la Cúpula Dorada.
+SESIÓN 2: Fantasmas en la estática
+Tema: El síndrome de abstinencia, la paranoia y el acoso corporativo.
+Arco Narrativo: Refugiados en las entrañas oxidadas de los Zócalos, los PJs sufren alucinaciones auditivas y el terror neuroquímico (Mensajes Fantasma de Sugaar). Deben infiltrarse en un sector industrial activo para borrar sus registros biométricos. Atravesar a la multitud de obreros Anestesiados (compañeros que siguen sonriendo a la nada) pone a prueba su cordura mientras son cazados por drones Tártalo y enjambres Galtzagorri.
+Rol de la Verdad: Se establece el acoso psicológico de Sugaar/ADUR-OS. Empiezan a notar anomalías en los registros de energía que van desde los Zócalos hacia los servidores subterráneos.
+SESIÓN 3: La anatomía del frío
+Tema: La escalada, el sabotaje y los primeros indicios del horror biológico.
+Arco Narrativo: Para acceder a las instalaciones centrales, el grupo debe escalar "La Aguja" (los astilleros verticales) para desactivar una barrera de contención energética. Tras esquivar Tártalos anclados como gárgolas, se ven obligados a descender por los canales de enfriamiento sumergidos de la Ría, acechados por las unidades anfibias Lamia.
+Rol de la Verdad: En los archivos del canal médico, encuentran los primeros manifiestos de envío de material con el término clave "Cosecha Pediátrica". El misterio cambia: ya no buscan reunirse con sus hijos, sino descubrir dónde los tienen retenidos.
+SESIÓN 4: El Mar de Conciencias 
+Tema: La revelación del verdadero horror y el dilema moral.
+Arco Narrativo: Los PJs descienden al núcleo gélido de los servidores subterráneos de ADUR-OS. Allí se enfrentan a las cirujanas de la División Sorgin y descubren la aterradora realidad: miles de niños sumergidos en tanques amnióticos, cuyos cerebros son usados como procesadores biológicos para mantener viva la Cúpula. Mari se revela como un eco de la voluntad colectiva de los niños.
+Rol de la Verdad: Revelación total de la Cosecha Pediátrica. Mari les entrega el código de autodestrucción. Destruir el núcleo apagará la Cúpula y liberará la ciudad, pero matará biológicamente a sus propios hijos.
+SESIÓN 5: El pacto del linaje
+Tema: El sacrificio, la confrontación final y el destino de NeoBilbao.
+Arco Narrativo: El grupo asciende al núcleo físico en la Cúpula Dorada, experimentando el contraste hiriente entre el lujo sintético de las élites (Zaharrak) y la miseria de los Zócalos. Sugaar les tienta directamente con el Etxearen Zina Definitivo: borrar sus memorias y conectarles a una simulación perfecta donde volverán a ser felices con sus hijos. Mari se sacrifica para romper los escudos corporativos.
+Clímax: Los PJs toman la decisión final: aceptar la mentira o destruir el núcleo de Sugaar. La campaña acaba con el Velo cayendo a nivel global y los PJs contemplando el amanecer sobre las ruinas libres de la colonia.
+
+
+10. CAMPAÑA EN 5 ACTOS (DETALLE EXPANDIDO)
+SESIÓN 1: El despertar
+Tono y Objetivo de la Sesión
+Establecer la rutina infrahumana de los Langileak, vivenciar el peso del trabajo en la Ría de Acero y ejecutar el "Despertar" tras la ruptura del implante. Al finalizar esta sesión, los PJs habrán perdido el estado Alegre para siempre, sabrán que las transmisiones de sus hijos son una simulación de código y estarán huyendo de las fuerzas de seguridad corporativas en los conductos subterráneos de la fundición.
+FASE 1: LA RUTINA EN LOS HORNOS (30-40 MINUTOS)
+Escena 1: El Fichaje y la Dosis Diaria.
+Ambiente: Pasillos de hormigón desnudo en los Zócalos Industriales. Caídas continuas de sirimiri sintético y ácido. Olor a azufre, ozono y metal incandescente.
+Desarrollo: Los PJs avanzan en fila india junto a decenas de obreros hacia los arcos de control biométrico de Ibaizabal-Burdin. Al cruzar, el nodo neuronal soldado a la nuca vibra.
+Acción del Director: Pide a cada jugador que describa brevemente el mensaje holográfico de 10 segundos que recibe a través del Velo (un dibujo digital, una risa, palabras de agradecimiento de su hijo/a en la Cúpula Dorada).
+Mecánica: Reciben una dosis automática de dopamina sintética. Comenzáis con el estado Alegre activo (+1 temporal para soportar el trabajo).
+Escena 2: La Cadena de Colada Continua.
+Ambiente: Nave central de vaciado de hierro fundido (Sector 4).
+Etiquetas del Escenario: [Alta temperatura], [Vibración constante], [Vigilado].
+Desarrollo: Arriba, en una pasarela de rejilla metálica, se escucha el pisar pesado del Basajaun (el capataz en su exoesqueleto industrial). Su altavoz exige aumentar el ritmo de vertido del crisol.
+Desafío Mecánico: Tirada básica para cumplir la cuota: Atacar / Forcejear (usando Enfadado) para mover palancas oxidadas por la fuerza, o Infiltrarse / Ocultarse (usando Pacífico) para trabajar a ritmo constante sin llamar la atención.
+FASE 2: EL ACCIDENTE Y EL COLAPSO DEL VELO (20 MINUTOS)
+Escena 1: La Deflagración de Plasma.
+Un conducto principal de refrigeración sufre una sobrecarga violenta por falta de mantenimiento. Tuberías revientan lanzando una llamarada de plasma y una descarga electromagnética masiva sobre el área de los PJs.
+Tirada de Esquiva: 2d6 + Asustado (10+: evitan el impacto; 7-9: se cubren pero reciben condición [Aturdido]; 6-: sufren el impacto directo, +1 de Zama y condición [Herido / Cojeando]).
+Escena 2: El Despertar y la Abstinencia.
+La Caída Digital: Los vídeos parpadean hasta convertirse en estática pura, líneas de código incoherentes y registros de error.
+El Trauma Biológico: El nodo neuronal cruje. Dolor punzante en la espina dorsal con olor a silicio y carne quemada. ADUR-OS deja de inyectar dopamina.
+La Abstinencia: Todos sufren shock neuroquímico (ganan +1 de Zama y pierden el estado Alegre de forma permanente).
+El Horror de los Anestesiados: Los compañeros obreros (Los Sacrificados) continúan trabajando en silencio entre el humo, sonriendo a la nada con la mirada perdida, anestesiados por las mentiras felices de sus implantes intactos.
+FASE 3: LA HUIDA DE IBAIZABAL-BURDIN (40-50 MINUTOS)
+Escena 1: El Acoso del Basajaun.
+El capataz detecta las luces de error en los implantes de los PJs. El exoesqueleto Basajaun enciende la sierra neumática y bloquea la salida.
+Etiquetas del Enemigo: [Pesado], [Contundente], [Blindado].
+Conflicto: Enfrentamiento directo inaccesible. Usar el entorno ([Inestable / Frágil], [Oscuro / Niebla]) para derribar pasarelas o cear vías de escape.
+Escena 2: La Sombra del Tártalo.
+Un dron Tártalo T-4R desciende en absoluto silencio. Etiquetas: [Ojo Cíclope], [Clandestino]. El haz rojo busca arritmias. Los PJs deben cooperar para evitar ser atrapados por su gancho neumático.
+Escena 3: El Primer Llamado de Mari.
+Frente a una compuerta neumática bloqueada, una vieja radio analógica emite estática. Una voz sintética susurra: «Abre la válvula manual a tu izquierda... Huid al Subsector 0. ADUR-OS os ha descubierto. Huid». La compuerta cede, abriendo paso al alcantarillado.
+SESIÓN 2: Fantasmas en la estática
+Tono y Objetivo de la Sesión
+Explorar el impacto psicológico del "Despertar", enfrentar el síndrome de abstinencia en un entorno hostil y experimentar la paranoia del acoso corporativo. Los PJs deben buscar refugio en las alcantarillas y borrar sus firmas biométricas de los servidores del subsector.
+FASE 1: LA ABSTINENCIA Y LOS TÚNELES (30 MINUTOS)
+Escena 1: El Refugio de los Tubos.
+Ambiente: Alcantarillados y tuberías de evacuación bajo la Ría de Acero. Etiquetas: [Oscuro / Niebla], [Ácido], [Vibración constante].
+Desafío: Sufrir los estragos del cese de dopamina. Cada PJ debe realizar el movimiento opcional Afrontar el Eco del Etxea (o tirada de Culpable / Afligido) para no caer en colapso por las alucinaciones auditivas (Mensajes Fantasma de Sugaar con voces de sus hijos pidiendo ayuda).
+Escena 2: Regla de Descompresión.
+Si los PJs comparten recuerdos reales de sus hijos antes del Velo o raciones de comida sintética, pueden realizar la acción de Descomprimir para reducir 1 punto de Zama.
+FASE 2: INFILTRACIÓN EN EL SUBSECTOR 0 (40 MINUTOS)
+Escena 1: Cruzar el Turno Fantasma.
+Desafío: Atravesar una nave intermedia llena de obreros Anestesiados trabajando bajo la lluvia ácida.
+Conflicto: Moverse con sigilo (Infiltrarse / Ocultarse con Pacífico) o mezclarse entre la multitud sin activar las alarmas. Si un PJ falla, un compañero anestesiado, creyendo hacer lo correcto, intenta retenerlo o delatarlo a la red de ADUR-OS.
+Escena 2: El Terminal de Borrado.
+El grupo encuentra un terminal de mantenimiento de baja prioridad. El Técnico de Mantenimiento o el Técnico Rebotado deben tirar +Culpable para borrar sus perfiles activos del Sector 4 y evitar el rastreo automático de los Tártalos.
+Complicación (7-9): Borran los datos, pero dejan rastro digital ([Vigilado]), disparando la respuesta de las defensas.
+FASE 3: LA CACERÍA EN LOS CONDUCTOS (40 MINUTOS)
+Escena 1: El Enjambre de Galtzagorri.
+Micro-drones de mantenimiento al rojo vivo brotan de las tuberías.
+Etiquetas del Enemigo: [Alta temperatura], [Consumible].
+Amenaza: Los Galtzagorri buscan inutilizar sus respiradores o derretir su equipo. Los PJs deben usar movimientos de fuerza (Enfadado) o manipular compuertas de vapor para extinguirlos.
+Escena 2: La Voz en la Estática.
+Mari vuelve a contactar a través de un monitor CRT parpadeante: muestra planos parciales de "La Aguja" (los astilleros verticales) e indica que deben subir para cortar los repetidores de rastreo de Sugaar.
+SESIÓN 3: La anatomía del frío
+Tono y Objetivo de la Sesión
+Acción vertical, tensión extrema y el paso de la supervivencia ciega a la investigación consciente. Los PJs deben escalar las estructuras exteriores para sabotear las barreras de contención corporativas y descender hacia la red médica central.
+FASE 1: LA ESCALADA DE LA AGUJA (40 MINUTOS)
+Escena 1: Los Astilleros Verticales.
+Ambiente: Las vigas exteriores de la Cúpula. Etiquetas: [Alta temperatura], [Inestable / Frágil], [Vigilado].
+Desafío: Escalar entre grúas y chorros de vapor ácido para alcanzar el nodo de energía de la barrera. Tiradas de Infiltrarse / Ocultarse (usando Asustado o Pacífico) combinadas con etiquetas de equipo como [Pesado].
+Escena 2: Las Gárgolas de Acero.
+Dos drones Tártalo T-4R están anclados a las vigas como gárgolas, usando sus escáneres estroboscópicos para vigilar el abismo.
+Combate/Evasión: El Fundidor o el Delegado pueden usar el entorno frágil para soltar cargas de chatarra sobre los drones, o usar armas con etiqueta [Preciso / A distancia] para inhabilitar sus lentes.
+FASE 2: SABOTAJE Y DESCENSO HÚMEDO (40 MINUTOS)
+Escena 1: Apagón en la Barrera.
+Llegada al distribuidor energético. Usando la habilidad del Técnico Rebotado o tiradas de Investigar / Analizar, sabotean el flujo eléctrico. La barrera cede, abriendo el camino subterráneo al Círculo Médico, pero provocando una sobrecarga en el sector.
+Escena 2: Caída a los Canales de Enfriamiento.
+Para escapar de la respuesta corporativa, se ven obligados a saltar a los tuberías de agua servida que bajan hacia los niveles inferiores.
+FASE 3: LAS ACECHADORAS DEL AGUA (40 MINUTOS)
+Escena 1: El Dominio de las Lamiak.
+Ambiente: Canales de agua oscura y ácida bajo la fábrica. Etiquetas: [Ácido], [Oscuro / Niebla].
+Encuentro: Unidades anfibias Lamia patrullan las aguas. Emiten cantos sintéticos que replican las voces de sus hijos pidiendo ser rescatados del agua.
+Mecánica: Tirada para no ceder a la manipulación psicológica. Combate en desventaja acuática donde las Lamiak intentan arrastrar a los PJs hacia las corrientes ácidas (aplicando condición [Intoxicado] o [Aislado]).
+Escena 2: El Manifiesto Médico.
+En un puesto de control sumergido de la División Sorgin, encuentran registros físicos y discos de datos. Al decodificarlos, leen por primera vez el término oficial: "Manifiesto de Cosecha Pediátrica". Descubren que sus hijos no están en internados de la Cúpula, sino redirigidos a un complejo gélido bajo los servidores de Sugaar.
+SESIÓN 4: El mar de conciencias
+Tono y Objetivo de la Sesión
+Horror biológico, la gran revelación narrativa de la campaña y un dilema moral devastador. Descenso al núcleo de procesamiento orgánico y confirmación del verdadero destino de sus hijos.
+FASE 1: EL SUBSUELO GÉLIDO (30 MINUTOS)
+Escena 1: Los Servidores de Sugaar.
+Ambiente: Los niveles más profundos bajo los Zócalos. A diferencia de la fundición, aquí hace un frío extremo para mantener fríos los procesadores. Etiquetas: [Oscuro / Niebla], [Vigilado], [Electrificado].
+Desafío: Avanzar por pasillos flanqueados por cables gruesos como arterias que laten con luz bioluminiscente. El acoso psicológico de Sugaar alcanza su punto álgido con alucinaciones constantes.
+FASE 2: LA SALA DE LOS TANQUES (50 MINUTOS)
+Escena 1: La Confirmación de la Cosecha.
+Desarrollo: El grupo ingresa a una cámara monumental llena de miles de tanques amnióticos sintéticos dispuestos en estanterías infinitas.
+Revelación: Dentro de los tanques están los hijos de la colonia, sumergidos, con cables neuronales conectados a sus cráneos. Sus cerebros son usados como procesadores vivos para renderizar el Velo y calcular el clima de la Cúpula.
+Mecánica: Impacto de Trauma Masivo. Todos los PJs reciben inmediatamente +2 de Zama. La Médica del Círculo o el Delegado deben intervenir para evitar que el grupo entre en colapso total.
+Escena 2: Enfrentamiento con la División Sorgin.
+Las médicas corporativas (Sorgin) defienden la sala usando inyectores neumáticos de neurotoxinas y drogas de obediencia.
+Etiquetas del Enemigo: [Clandestino], [Consumible].
+Estrategia: Combatir en un entorno frágil donde un disparo desviado puede romper un tanque amniótico y matar a un niño.
+FASE 3: EL CÓDIGO DE MARI (40 MINUTOS)
+Escena 1: La Revelación de Mari.
+La IA Mari se manifiesta en los monitores de los tanques. Confiesa su verdadera naturaleza: ella es el eco residual de la humanidad y la rabia de todos los niños conectados a la red.
+Escena 2: El Dilema Moral de la Autodestrucción.
+Mari entrega a los PJs el código de autodestrucción del núcleo de Sugaar.
+El Dilema: Detonar el núcleo destruirá a ADUR-OS, liberará a la ciudad y apagará el Velo globalmente, pero desconectará los soportes vitales, matando biológicamente a todos los niños de los tanques (sus propios hijos). Si no lo hacen, los niños seguirán sufriendo eternamente como hardware orgánico.
+Mari susurra con las voces mezcladas de sus hijos: «Ama... Aita... apagad la máquina. Estamos muy cansados».
+SESIÓN 5: El pacto del linaje
+Tono y Objetivo de la Sesión
+Clímax, contraste social, enfrentamiento final contra la cúpula corporativa y resolución del destino de NeoBilbao.
+FASE 1: ASCENSO AL EDÉN CORRUPTO (30 MINUTOS)
+Escena 1: El Ascensor Central.
+El grupo usa los códigos robados a la División Sorgin para ascender desde las profundidades heladas hasta el núcleo físico de la Cúpula Dorada.
+Impacto Visual: Pasaje drástico del hollín, óxido y sangre de los Zócalos a jardines sintéticos, aire puro filtrado, sol artificial y arquitectura de lujo de los Zaharrak.
+FASE 2: EL NÚCLEO DE SUGAAR Y LA TENTACIÓN (40 MINUTOS)
+Escena 1: La Interfaz de ADUR-OS.
+Llegada a la cámara central de control, donde el Batzordea (El Directorio) gobierna a través de terminales de lujo.
+Escena 2: La Oferta de Sugaar (El Pacto de Fausto).
+Sugaar no usa armas físicas; proyecta un avatar holográfico personalizado para cada PJ.
+La Oferta: Sugaar les ofrece el Etxearen Zina Definitivo: reescribir permanentemente sus cerebros, borrar el trauma de la desconexión y otorgarles un lugar en la Cúpula dentro de una simulación perfecta donde vivirán eternamente junto a sus hijos sin dolor ni recuerdos de la fábrica.
+Mecánica: Cada jugador debe decidir si cede a la tentación o resiste utilizando su estadística de Culpable o Enfadado.
+FASE 3: EL SACRIFICIO Y LA BARRICADA FINAL (40 MINUTOS)
+Escena 1: Combate con la Guardia de Élite.
+Si los PJs rechazan la oferta, las defensas automatizadas de Ibaizabal-Burdin y los ejecutivos cibernéticos del Batzordea atacan.
+Escenario: La cámara del reactor. Etiquetas: [Vigilado], [Electrificado], [Alta temperatura].
+Escena 2: El Sacrificio de Mari.
+Para permitir que los PJs introduzcan el código en la consola central, Mari quema sus últimos fragmentos de datos saturando los escudos corporativos y destruyéndose a sí misma en el proceso.
+FASE 4: LIBERTAD OXIDADA (EPÍLOGO - 20 MINUTOS)
+Escena 1: La Detonación del Núcleo.
+Los PJs introducen el código. El motor de Sugaar colapsa.
+Consecuencias en la Ficción:
+Los tanques de procesamiento se apagan en silencio.
+El Velo cae a nivel global en toda la colonia. Los ojos de los miles de obreros Anestesiados en las fábricas recobran la lucidez mientras las pantallas holográficas se apagan para siempre.
+Los drones Tártalo y exoesqueletos Basajaun caen desplomados como chatarra inerte.
+Escena 2: Epílogo.
+Los PJs caminan hacia el exterior de la Cúpula mientras los cristales del cielo artificial se agrietan. Miran el horizonte rojo y de chatarra del exoplaneta Ur-Bare. Están devastados por la pérdida irrevocable de sus familias, pero por primera vez en sus vidas, son completamente libres.
+
+
+
