@@ -1,0 +1,184 @@
+\documentclass[10pt,a4paper,oneside]{book}
+
+\usepackage{neobilbao}
+\geometry{a4paper,top=12mm,bottom=12mm,left=13mm,right=13mm,headheight=0pt}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\definecolor{Paper}{HTML}{FAF8F2}
+\definecolor{InkSoft}{HTML}{4B5358}
+\definecolor{Line}{HTML}{B9C1C4}
+\definecolor{BluePale}{HTML}{E5F2F6}
+\definecolor{RustPale}{HTML}{F7E9E2}
+\definecolor{GoldPale}{HTML}{F7F0DA}
+
+\newcommand{\field}[2][\linewidth]{%
+  \begin{minipage}[t]{#1}
+  \textcolor{InkSoft}{\terminalfont\scriptsize\MakeUppercase{#2}}\par
+  \vspace{1.5mm}\textcolor{Line}{\rule{\linewidth}{0.45pt}}
+  \end{minipage}}
+
+\newcommand{\rulefield}[2][\linewidth]{%
+  \begin{minipage}[t]{#1}
+  \textcolor{InkSoft}{\industrialfont\scriptsize\bfseries\MakeUppercase{#2}}\par
+  \vspace{1mm}\textcolor{Line}{\rule{\linewidth}{0.45pt}}
+  \end{minipage}}
+
+\newcommand{\strip}[1]{%
+  \vspace{1mm}\noindent
+  \colorbox{CarbonDark}{\parbox{\dimexpr\linewidth-2\fboxsep\relax}{%
+    \textcolor{white}{\industrialfont\bfseries\small\MakeUppercase{#1}}}}\par
+  \vspace{1mm}}
+
+\newcommand{\checkline}[2]{%
+  \textcolor{#1}{\rule{2.6mm}{2.6mm}}\hspace{1.2mm}\textcolor{InkSoft}{\scriptsize #2}}
+
+\begin{document}
+\pagecolor{Paper}
+
+\noindent
+\begin{minipage}[c]{0.68\linewidth}
+  {\industrialfont\bfseries\fontsize{24}{25}\selectfont\color{CarbonDark}NEOBILBAO}\par
+  \vspace{1mm}
+  {\industrialfont\bfseries\small\color{OrekakRust}ETXAREN ZINA \textcolor{BurdinUrdin}{//} DOSSIER DE PERSONAJE}
+\end{minipage}%
+\hfill
+\begin{minipage}[c]{0.28\linewidth}
+  \raggedleft
+  {\terminalfont\scriptsize\color{InkSoft}REGISTRO 2102}\par
+  {\industrialfont\bfseries\large\color{BurdinUrdin}ZINA / 01}
+\end{minipage}
+
+\vspace{2mm}
+\textcolor{OrekakRust}{\rule{\linewidth}{1.4pt}}
+\vspace{2mm}
+
+\begin{minipage}[t]{0.58\linewidth}
+  \field{Nombre del personaje}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.38\linewidth}
+  \field{Jugador/a}
+\end{minipage}
+
+\vspace{1mm}
+\begin{minipage}[t]{0.58\linewidth}
+  \field{Arquetipo / playbook}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.38\linewidth}
+  \field{Casta}
+\end{minipage}
+
+\strip{01 // Disposición emocional}
+
+\begin{tcolorbox}[enhanced,colback=white,colframe=BurdinUrdin,boxrule=.8pt,
+  arc=1mm,left=5pt,right=5pt,top=4pt,bottom=4pt]
+  \begin{tabularx}{\linewidth}{@{}>{\industrialfont\bfseries\color{CarbonDark}}p{.22\linewidth}
+    >{\centering\arraybackslash}p{.16\linewidth}
+    >{\raggedright\arraybackslash\color{InkSoft}}X@{}}
+    \textcolor{BurdinUrdin}{EMOCIÓN} & \textcolor{BurdinUrdin}{MOD.} & \textcolor{BurdinUrdin}{IMPULSO / USO PRINCIPAL} \\
+    \arrayrulecolor{Line}\midrule
+    ENFADADO & \rule{11mm}{.4pt} & Fuerza, rebeldía. Atacar / Forcejear. \\
+    ASUSTADO & \rule{11mm}{.4pt} & Supervivencia. Infiltrarse / Ocultarse. \\
+    CULPABLE & \rule{11mm}{.4pt} & Mentira, hackeo. Investigar / Afrontar el Eco. \\
+    AFLIGIDO & \rule{11mm}{.4pt} & Empatía, vínculo. Manipular / Curar. \\
+    PACÍFICO & \rule{11mm}{.4pt} & Calma, análisis. Investigar / Sigilo. \\
+    \textcolor{OrekakRust}{ALEGRE} & \textcolor{OrekakRust}{\bfseries X} & \textcolor{OrekakRust}{\scriptsize PERDIDO TRAS EL CORTOCIRCUITO DEL VELO.} \\
+  \end{tabularx}
+  \vspace{2mm}
+  \textcolor{InkSoft}{\scriptsize Reparte exactamente: \textbf{+2, +1, +1, 0, -1}. Alegre no recibe modificador y no puede asignarse.}
+\end{tcolorbox}
+
+\begin{minipage}[t]{0.48\linewidth}
+  \strip{02 // El juramento del linaje}
+  \begin{tcolorbox}[enhanced,colback=BluePale,colframe=BurdinUrdin,boxrule=.6pt,
+    arc=1mm,left=5pt,right=5pt,top=3pt,bottom=3pt,height=50mm]
+    \scriptsize
+    \rulefield{Nombre del hijo / hija}\par\vspace{1mm}
+    \rulefield{Edad}\par\vspace{1mm}
+    \rulefield{Recuerdo del Velo}\par\vspace{1mm}
+    \textcolor{Line}{\rule{\linewidth}{.4pt}}\par\vspace{1mm}
+    \vspace{1mm}
+    \rulefield{Objeto recuerdo}\par\vspace{1mm}
+    \textcolor{Line}{\rule{\linewidth}{.4pt}}\par\vspace{1mm}
+    \rulefield{Cicatriz del Velo}\par\vspace{1mm}
+    \checkline{BurdinUrdin}{Jaqueo sensorial}\hfill
+    \checkline{BurdinUrdin}{Zumbido tinnitus}\par\vspace{1mm}
+    \checkline{BurdinUrdin}{Dolor fantasma}\hfill
+    \checkline{BurdinUrdin}{Laguna amnésica}
+  \end{tcolorbox}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.48\linewidth}
+  \strip{03 // Carga y solidaridad}
+  \begin{tcolorbox}[enhanced,colback=GoldPale,colframe=GoldDark,boxrule=.6pt,
+    arc=1mm,left=5pt,right=5pt,top=3pt,bottom=3pt,height=50mm]
+    {\industrialfont\bfseries\color{GoldDark}ZAMA}\par
+    \textcolor{InkSoft}{\scriptsize Estrés / carga neuroquímica. Empiezas en 0. Al llegar a 6: Colapso.}\par
+    \vspace{3mm}
+    \begin{center}
+      \textcolor{InkSoft}{\scriptsize 0}\quad
+      \checkline{AcidSirimiri}{}\quad
+      \checkline{AcidSirimiri}{}\quad
+      \checkline{AcidSirimiri}{}\quad
+      \checkline{AcidSirimiri}{}\quad
+      \checkline{AcidSirimiri}{}\quad
+      \textcolor{OrekakRust}{\rule{3mm}{3mm}}\ \textcolor{OrekakRust}{\scriptsize 6}
+    \end{center}
+    \vspace{1mm}\textcolor{Line}{\rule{\linewidth}{.4pt}}\vspace{2mm}
+    {\industrialfont\bfseries\color{GoldDark}RESERVA DE AUZOLAN}\par
+    \textcolor{InkSoft}{\scriptsize Reserva compartida del grupo: 1 punto por jugador al inicio de la sesión.}\par
+    \vspace{1mm}
+    {\color{InkSoft}\scriptsize
+      \checkline{GoldDark}{} \textbf{Ayudar:} +1 a una tirada aliada.\par\vspace{1mm}
+      \checkline{GoldDark}{} \textbf{Declarar un hecho:} altera un detalle menor de la ficción.}
+  \end{tcolorbox}
+\end{minipage}
+
+\strip{04 // Movimiento único}
+
+\begin{tcolorbox}[enhanced,colback=RustPale,colframe=OrekakRust,boxrule=.7pt,
+  arc=1mm,left=6pt,right=6pt,top=3pt,bottom=3pt]
+  \begin{minipage}[t]{0.32\linewidth}
+    \rulefield{Nombre del movimiento}\par\vspace{3mm}
+    \textcolor{Line}{\rule{\linewidth}{.4pt}}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.62\linewidth}
+    \rulefield{Efecto y reglas}\par\vspace{3mm}
+    \textcolor{Line}{\rule{\linewidth}{.4pt}}\par\vspace{3mm}
+    \textcolor{Line}{\rule{\linewidth}{.4pt}}
+  \end{minipage}
+\end{tcolorbox}
+
+\strip{05 // Equipo y etiquetas}
+
+\begin{tcolorbox}[enhanced,colback=white,colframe=CarbonDark,boxrule=.7pt,
+  arc=1mm,left=6pt,right=6pt,top=3pt,bottom=3pt]
+  \begin{tabularx}{\linewidth}{@{}X X@{}}
+    {\color{InkSoft}\scriptsize
+      \textbf{TRAJE DE PRESIÓN + RESPIRADOR}\par
+      Protege de \etiqueta{Ácido}.\par\vspace{3mm}
+      \textbf{HERRAMIENTA INDUSTRIAL:} \rule{19mm}{.4pt}\par
+      \etiqueta{Contundente}\ \etiqueta{Pesado}}
+    &
+    {\color{InkSoft}\scriptsize
+      \textbf{SOPLETE / CORTACABLES:} \rule{13mm}{.4pt}\par
+      \etiqueta{Consumible}\ \etiqueta{Improvisado}\par\vspace{3mm}
+      \textbf{IMPLANTE DEL VELO ROTO}\par
+      Destello rojo de error en la nuca.}
+  \end{tabularx}
+  \vspace{4mm}\textcolor{Line}{\rule{\linewidth}{.4pt}}\vspace{2mm}
+  \rulefield{Equipo adicional / objeto de Auzolan}
+  \vspace{3mm}\textcolor{InkSoft}{\scriptsize Condiciones activas: \rule{35mm}{.4pt}}
+\end{tcolorbox}
+
+\vfill
+\noindent
+\begin{minipage}[c]{0.7\linewidth}
+  {\terminalfont\scriptsize\color{InkSoft}CONFIDENCIAL // OREKAK-CORP // ARCHIVO DE LOS FRACTURADOS}\par
+  {\industrialfont\bfseries\scriptsize\color{BurdinUrdin}NACEMOS, TRABAJAMOS Y MORIMOS EN LA OSCURIDAD.}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.25\linewidth}
+  \raggedleft{\industrialfont\bfseries\small\color{OrekakRust}ZINA / 2102}
+\end{minipage}
+
+\end{document}
