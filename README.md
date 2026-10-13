@@ -1,3 +1,4 @@
+License: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 # NEOBILBAO // Etxearen Zina
 ### *El Juramento del Linaje*
 
