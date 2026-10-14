@@ -20,25 +20,6 @@ Haz clic en las previsualizaciones para abrir los documentos y el vídeo interac
 
 ---
 
-## 🎬 Prólogo Audiovisual: *El Despertar*
-
-El inicio de la campaña cuenta con un vídeo introductorio inmersivo con voz en off y ambientación sonora industrial, diseñado para ser reproducido a los jugadores justo antes de iniciar la **Sesión 1**.
-
-[![Ver Tráiler de NeoBilbao](images/trailer_preview.gif)](images/trailer.mp4)
-
-* **Formato:** Vídeo cinematográfico vertical (H.264 / AAC)
-* **Duración:** 1 minuto 20 segundos
-* **Archivo multimedia:** [images/trailer.mp4](images/trailer.mp4)
-
-### Estructura del guion cinematográfico:
-1. **Escena 1 — La Ría de Acero (0:00 - 0:20):** Descenso por el cañón industrial de Ur-Bare, los ríos de metal fundido, el colosal puente transbordador y la silueta lejana de la Cúpula Dorada bajo el *sirimiri* ácido.
-2. **Escena 2 — El Juramento (0:20 - 0:40):** Los *Langileak* transitando hacia los altos hornos con trajes de presión, escaneados por drones Tártalo y con el implante del Velo palpitando en la nuca.
-3. **Escena 3 — El Cordón Umbilical (0:40 - 0:55):** Primer plano del visor de un obrero proyectando la sonrisa de su hijo en el idílico internado superior, sintiendo el reconfortante estímulo que le permite continuar un día más.
-4. **Escena 4 — El Cortocircuito (0:55 - 1:10):** Una violenta sobrecarga en los generadores de plasma desata un chispazo eléctrico. La transmisión parpadea, llenándose de estática analógica y líneas de error en rojo.
-5. **Escena 5 — El Despertar (1:10 - 1:20):** La pantalla se funde a negro. Entre la interferencia resuena un susurro desgarrador: *«Aita... Ama... despertad...»*.
-
----
-
 ## 🌆 La Ambientación: NeoBilbao (Ur-Bare, 2102)
 
 <p align="center">
